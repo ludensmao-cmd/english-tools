@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="ru" class="dark" data-role="student">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#141117">
+  <meta name="robots" content="noindex">
+  <meta name="description" content="Демонстрационный учебный кабинет ученика и преподавателя English.tools.">
+  <title>Учебный кабинет — English.tools</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon-v3.svg?v=1">
+  <script>const requestedRole = new URLSearchParams(location.search).get('role'); document.documentElement.dataset.role = ['student', 'teacher'].includes(requestedRole) ? requestedRole : 'student';</script>
+  <link rel="stylesheet" href="/englinks-source.css?v=russian-tools-20261007">
+  <link rel="stylesheet" href="/englinks.css?v=russian-tools-20261007">
+  <link rel="stylesheet" href="/home-fonts.css?v=lobby-20261002">
+  <link rel="stylesheet" href="/lobby-shell.css?v=shared-lobby-20261006">
+  <link rel="stylesheet" href="./englinks-lessons.css?v=classroom-lobby-20261007">
+  <link rel="stylesheet" href="./classroom-lobby.css?v=repeat-dialogs-20261007">
+  <script src="/site-config.js?v=russian-tools-20261007" defer></script><script src="/englinks-shell-markup.js?v=russian-tools-20261007" defer></script><script src="/englinks-shell.js?v=russian-tools-20261007" defer></script>
+  <script src="./lessons.js?v=repeat-dialogs-20261007" defer></script>
+</head>
+<body class="englinks-page cabinet-page lobby-shell" data-cabinet="true"><div class="Layout" data-v-49b94f76><!-- ENGLISH SHELL START --><header class="VPNav" data-v-49b94f76 data-v-3d3b6169><div class="VPNavBar" data-v-3d3b6169 data-v-b5a09ea0><div class="wrapper" data-v-b5a09ea0><div class="container" data-v-b5a09ea0><div class="title" data-v-b5a09ea0><div class="VPNavBarTitle has-sidebar" data-v-b5a09ea0 data-v-8ff585d9><a class="title" href="/" data-v-8ff585d9><img class="VPImage logo english-brand" src="/brand/english-tools-transparent.png" alt="English.tools — на главную" width="144" height="72" data-v-e6b61155></a></div></div><div class="content" data-v-b5a09ea0><div class="content-body" data-v-b5a09ea0><button type="button" class="VPNavBarHamburger hamburger" aria-label="Открыть меню" aria-expanded="false" aria-controls="VPNavScreen" data-v-b5a09ea0 data-v-2e045c15><span class="container" data-v-2e045c15><span class="top" data-v-2e045c15></span><span class="middle" data-v-2e045c15></span><span class="bottom" data-v-2e045c15></span></span></button></div></div></div></div><div class="divider" data-v-b5a09ea0><div class="divider-line" data-v-b5a09ea0></div></div></div><div class="VPNavScreen" id="VPNavScreen" data-v-3de96e2e hidden></div></header><!-- ENGLISH SHELL END -->
+  <a class="VPSkipLink visually-hidden" href="#content" data-v-49b94f76>К содержанию</a>
+  <div class="VPContent has-sidebar" id="VPContent" data-v-49b94f76 data-v-1fcbc27d>
+    <div class="VPDoc has-sidebar" data-v-1fcbc27d data-v-bbe6346a>
+      <div class="container" data-v-bbe6346a>
+        <div class="content" data-v-bbe6346a>
+          <div class="content-container" data-v-bbe6346a>
+            <main class="main" id="content" tabindex="-1" data-v-bbe6346a>
+              <div class="vp-doc cabinet-doc" data-v-bbe6346a>
+                <span class="cabinet-role-label" id="role-label">Кабинет ученика</span>
+                <p class="form-result" id="cabinet-storage-status" role="status" aria-live="polite" hidden></p>
+
+                <section class="role-view student-view" id="student-view" aria-labelledby="student-heading">
+                  <div class="cabinet-intro">
+                    <div><h1 id="student-heading">Ваше обучение</h1><p>Уроки, домашние задания и всё, что разобрали вместе</p></div>
+                    <div class="cabinet-person"><span class="avatar">АМ</span><span><strong>Анна М.</strong><small>B1 · индивидуальные занятия</small></span></div>
+                  </div>
+
+                  <div class="student-overview">
+                  <section class="next-lesson" id="student-lesson" aria-labelledby="next-lesson-heading">
+                    <div class="section-heading"><h2 id="next-lesson-heading"><img class="section-icon" src="./icons/calendar.svg" alt="">Следующий урок</h2><span class="status-pill">Запланирован</span></div>
+                    <h3 class="lesson-topic">Говорим о планах без долгих пауз</h3>
+                    <p class="lesson-description">Научимся рассказывать о планах, задавать уточняющие вопросы и поддерживать разговор.</p>
+                    <dl class="lesson-facts"><div><dt>Дата</dt><dd>7 октября, среда</dd></div><div><dt>Время · Москва</dt><dd>18:00–18:50</dd></div></dl>
+                    <a class="action primary" href="#student-homework">Открыть домашнее задание</a>
+                  </section>
+
+                  <section class="package-panel" aria-labelledby="package-heading">
+                    <h2 id="package-heading"><img class="section-icon" src="./icons/lessons.svg" alt="">Ваши занятия</h2>
+                    <div class="package-summary"><p class="package-balance"><strong>5 занятий</strong><span>осталось в пакете из 8</span></p></div>
+                    <progress value="3" max="8" aria-label="Проведено 3 из 8 занятий">3 из 8</progress>
+                    <p class="package-meta">3 проведено · 5 впереди</p>
+                    <p class="package-caption">Двигаемся в вашем темпе — по одному уроку за раз</p>
+                  </section>
+                  </div>
+
+                  <div class="student-workspace">
+                  <section class="work-section" id="student-homework" aria-labelledby="homework-heading">
+                    <div class="section-heading"><h2 id="homework-heading"><img class="section-icon" src="./icons/homework.svg" alt="">Домашнее задание</h2></div>
+                    <p class="section-description">К следующему уроку · разговор о планах</p>
+                    <div class="assignment">
+                      <div class="assignment-step"><h3>1. Расскажите о своих планах</h3><p>Напишите 5–7 предложений о том, что собираетесь делать на выходных. Добавьте одно предложение о том, что может измениться.</p></div>
+                      <div class="assignment-step"><h3>2. Подготовьте два вопроса</h3><p>Спросите собеседника о его планах. Попробуйте использовать <em>What are you going to…?</em> и <em>Would you like to…?</em></p></div>
+                      <form class="homework-response" id="student-answer-form">
+                        <h3>Ваш ответ</h3>
+                        <label for="student-answer">Текст или комментарий <span class="optional-label">· необязательно</span></label>
+                        <textarea id="student-answer" rows="4" placeholder="Напишите ответ или пояснение к файлам"></textarea>
+                        <div class="file-control"><label class="attachment-control" for="student-answer-files"><img src="./icons/attachment.svg" alt=""><span><strong>Прикрепить файлы</strong><small>Документы, фотографии или запись голоса</small></span><input id="student-answer-files" type="file" multiple aria-label="Прикрепить файлы к ответу" aria-describedby="student-files-note"></label><p class="form-note" id="student-files-note">Несколько файлов, любой формат</p></div>
+                        <div class="file-selection" id="student-file-selection" hidden><ul class="file-list" id="student-selected-files" aria-label="Выбранные файлы"></ul><button class="text-button" id="student-clear-files" type="button">Убрать все файлы</button></div>
+                        <button class="action primary" type="submit">Сохранить ответ</button>
+                        <p class="form-note">В макете ответ сохраняется только здесь. Преподавателю отправьте его в личку.</p>
+                        <p class="form-result" id="student-answer-result" role="status" aria-live="polite" hidden></p>
+                      </form>
+                      <div class="saved-answer" id="student-saved-answer" hidden><h3>Сохранено в этом браузере</h3><p id="student-saved-text" hidden></p><ul class="file-list saved-file-list" id="student-saved-files" aria-label="Сохранённые файлы" hidden></ul></div>
+                    </div>
+                  </section>
+
+                  <section class="work-section materials-section" id="student-materials" aria-labelledby="materials-heading">
+                    <div class="section-heading"><h2 id="materials-heading"><img class="section-icon" src="./icons/repeat.svg" alt="">Повторение</h2></div>
+                    <p class="section-description">После прошлого урока · разговор о планах</p>
+                    <div class="resource-list">
+                      <button class="resource-open" id="open-lesson-summary" type="button" aria-haspopup="dialog" aria-controls="lesson-summary-dialog"><span><strong>Саммари прошлого занятия</strong><small>Что разобрали и что уже получается</small></span><svg class="details-chevron" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="m9 5 7 7-7 7"></path></svg></button>
+                      <button class="resource-open" id="open-lesson-vocabulary" type="button" aria-haspopup="dialog" aria-controls="lesson-vocabulary-dialog"><span><strong>Словарь прошлого занятия</strong><small>Три выражения для разговора о планах</small></span><svg class="details-chevron" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="m9 5 7 7-7 7"></path></svg></button>
+                      <button class="resource-open" id="open-lesson-materials" type="button" aria-haspopup="dialog" aria-controls="lesson-materials-dialog"><span><strong>Полезные материалы</strong><small>Практика и заметки к теме занятия</small></span><svg class="details-chevron" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="m9 5 7 7-7 7"></path></svg></button>
+                    </div>
+                    <dialog class="lesson-resource-dialog" id="lesson-summary-dialog" aria-labelledby="lesson-summary-title" aria-describedby="lesson-summary-topic">
+                      <div class="lesson-resource-header">
+                        <div><h2 id="lesson-summary-title" tabindex="-1" autofocus>Саммари прошлого занятия</h2><p id="lesson-summary-topic">Разговор о планах</p></div>
+                        <button class="lesson-resource-close" id="close-lesson-summary" type="button" aria-label="Закрыть саммари"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"></path></svg></button>
+                      </div>
+                      <div class="lesson-resource-body">
+                        <p>Говорили о планах на выходные: рассказывали о намерениях, уточняли детали и отвечали на приглашение.</p>
+                        <p>Вы хорошо поддерживаете диалог. Следующий шаг — короткие ответы без перевода в голове.</p>
+                        <p class="example-note">Пример заметки преподавателя.</p>
+                      </div>
+                    </dialog>
+                    <dialog class="lesson-resource-dialog" id="lesson-vocabulary-dialog" aria-labelledby="lesson-vocabulary-title" aria-describedby="lesson-vocabulary-topic">
+                      <div class="lesson-resource-header">
+                        <div><h2 id="lesson-vocabulary-title" tabindex="-1" autofocus>Словарь прошлого занятия</h2><p id="lesson-vocabulary-topic">Разговор о планах</p></div>
+                        <button class="lesson-resource-close" id="close-lesson-vocabulary" type="button" aria-label="Закрыть словарь"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"></path></svg></button>
+                      </div>
+                      <div class="lesson-resource-body">
+                        <p><b>I'm thinking of…</b> — я подумываю о…</p>
+                        <p><b>It depends on…</b> — это зависит от…</p>
+                        <p><b>I'd rather…</b> — я бы лучше…</p>
+                        <p class="example-note">Пример словаря после урока.</p>
+                      </div>
+                    </dialog>
+                    <dialog class="lesson-resource-dialog" id="lesson-materials-dialog" aria-labelledby="lesson-materials-title" aria-describedby="lesson-materials-topic">
+                      <div class="lesson-resource-header">
+                        <div><h2 id="lesson-materials-title" tabindex="-1" autofocus>Полезные материалы</h2><p id="lesson-materials-topic">Разговор о планах</p></div>
+                        <button class="lesson-resource-close" id="close-lesson-materials" type="button" aria-label="Закрыть материалы"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"></path></svg></button>
+                      </div>
+                      <div class="lesson-resource-body">
+                        <p><b>Going to и will.</b> Для заранее принятого решения используйте <em>going to</em>: <em>I'm going to visit my friend.</em> Для решения в момент разговора — <em>will</em>: <em>I'll call you later.</em></p>
+                        <p id="ai-practice-text">Сыграй роль знакомого, который спрашивает меня о планах на выходные. Задавай по одному вопросу и жди моего ответа. После пяти реплик отметь две ошибки, которые мешают понять смысл, и попроси меня исправить их самостоятельно.</p>
+                        <button class="text-button" id="copy-ai-practice" type="button">Скопировать задание для практики</button>
+                        <span class="copy-status" id="copy-status" role="status" aria-live="polite"></span>
+                        <p class="example-note">Примеры материалов для повторения.</p>
+                      </div>
+                    </dialog>
+                  </section>
+                  </div>
+                </section>
+
+                <section class="role-view teacher-view" id="teacher-view" aria-labelledby="teacher-heading">
+                  <div class="cabinet-intro"><div><h1 id="teacher-heading">Занятия и ученики</h1><p>Расписание, домашние задания и обратная связь</p></div></div>
+
+                  <section class="teacher-schedule" id="teacher-schedule" aria-labelledby="schedule-heading">
+                    <div class="section-heading"><h2 id="schedule-heading"><img class="section-icon" src="./icons/calendar.svg" alt="">Расписание</h2><span class="section-meta">7–9 октября · Москва</span></div>
+                    <table class="schedule-table"><thead><tr><th scope="col">Дата</th><th scope="col">Время</th><th scope="col">Ученик и тема</th><th scope="col">Статус</th></tr></thead><tbody>
+                      <tr><td><span class="schedule-date">7 октября<small>Среда</small></span></td><td class="schedule-time">18:00</td><td><button type="button" class="schedule-person" data-open-student="anna"><strong>Анна М.</strong><small>Планы и разговор</small></button></td><td><span class="schedule-status">Запланировано</span></td></tr>
+                      <tr><td><span class="schedule-date">8 октября<small>Четверг</small></span></td><td class="schedule-time">17:00</td><td><button type="button" class="schedule-person" data-open-student="maxim"><strong>Максим К.</strong><small>Короткий рассказ о себе</small></button></td><td><span class="schedule-status">Запланировано</span></td></tr>
+                      <tr><td><span class="schedule-date">9 октября<small>Пятница</small></span></td><td class="schedule-time">12:00</td><td><button type="button" class="schedule-person" data-open-student="olga"><strong>Ольга С.</strong><small>Вопросы в поездке</small></button></td><td><span class="schedule-status">Запланировано</span></td></tr>
+                    </tbody></table>
+                  </section>
+
+                  <section class="teacher-workspace" id="teacher-students" aria-labelledby="roster-heading">
+                    <div class="section-heading"><h2 id="roster-heading"><img class="section-icon" src="./icons/students.svg" alt="">Ученики</h2><span class="section-meta">3 ученика</span></div>
+                    <div class="teacher-student-grid">
+                    <div class="student-list" role="group" aria-label="Выбрать ученика">
+                      <button class="student-choice" type="button" data-student="anna" aria-pressed="true"><span class="avatar">АМ</span><span class="student-choice-copy"><strong>Анна М.</strong><small>B1 · 5 занятий осталось</small></span><span class="student-choice-end">Ответ ожидается</span></button>
+                      <button class="student-choice" type="button" data-student="maxim" aria-pressed="false"><span class="avatar">МК</span><span class="student-choice-copy"><strong>Максим К.</strong><small>A2 · 2 занятия осталось</small></span><span class="student-choice-end">На проверку</span></button>
+                      <button class="student-choice" type="button" data-student="olga" aria-pressed="false"><span class="avatar">ОС</span><span class="student-choice-copy"><strong>Ольга С.</strong><small>B1 · 7 занятий осталось</small></span><span class="student-choice-end">Без задания</span></button>
+                    </div>
+                    <section class="student-profile" aria-labelledby="profile-heading">
+                      <div class="profile-head"><div><h3 id="profile-heading">Анна М.</h3><p id="profile-subtitle">B1 · индивидуальные занятия</p></div><span class="profile-state" id="profile-state">Ответ ожидается</span></div>
+                      <dl class="profile-facts"><div><dt>Следующий урок</dt><dd id="profile-next">7 октября · 18:00</dd></div><div><dt>Пакет</dt><dd id="profile-balance">5 из 8 осталось</dd></div><div><dt>Последняя тема</dt><dd id="profile-topic">Разговор о планах</dd></div></dl>
+                      <div class="profile-task"><h3>Текущее задание</h3><p id="profile-task">Рассказать о планах на выходные и подготовить два вопроса.</p><ul class="file-list saved-file-list" id="profile-task-files" aria-label="Файлы к заданию" hidden></ul></div>
+                      <details class="inline-action teacher-compose" id="teacher-task-panel"><summary><span><img class="section-icon" src="./icons/homework.svg" alt="">Новое задание</span><svg class="details-chevron" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="m9 5 7 7-7 7"></path></svg></summary><form id="teacher-task-form"><label for="task-title">Название задания</label><input id="task-title" required maxlength="80" placeholder="Например, повторить фразы после урока"><label for="task-description">Что сделать</label><textarea id="task-description" rows="3" required minlength="8" placeholder="Короткая и понятная инструкция ученику"></textarea><div class="file-control"><label class="attachment-control" for="task-files"><img src="./icons/attachment.svg" alt=""><span><strong>Прикрепить материалы</strong><small>Документы, изображения или аудио</small></span><input id="task-files" type="file" multiple aria-label="Прикрепить материалы к заданию" aria-describedby="teacher-files-note"></label><p class="form-note" id="teacher-files-note">В макете файлы сохраняются в этом браузере. Ученик их пока не получит.</p></div><div class="file-selection" id="teacher-file-selection" hidden><ul class="file-list" id="teacher-selected-files" aria-label="Файлы нового задания"></ul><button class="text-button" id="teacher-clear-files" type="button">Убрать все файлы</button></div><button class="action primary" type="submit">Сохранить задание</button></form></details>
+                      <p class="form-result" id="teacher-task-result" role="status" aria-live="polite" hidden></p>
+                    </section>
+                    </div>
+                  </section>
+
+                  <section class="review-section" id="teacher-review" aria-labelledby="review-heading">
+                    <div class="section-heading"><h2 id="review-heading"><img class="section-icon" src="./icons/review.svg" alt="">Проверка домашнего задания</h2><span class="section-meta" id="review-count">1 ответ</span></div>
+                    <div class="review-layout">
+                    <div class="review-copy"><div class="review-person"><span class="avatar">МК</span><div><strong>Максим К.</strong><small>Задание: короткий рассказ о себе</small></div></div><blockquote>“I work in design. On weekends I usually go to the park and meet my friends. Next month I am going to visit my sister.”</blockquote></div>
+                    <form class="review-form" id="review-form"><label for="feedback-text">Комментарий ученику</label><textarea id="feedback-text" rows="4" required minlength="8" placeholder="Что получилось и что стоит повторить"></textarea><button class="action primary" type="submit">Сохранить отзыв</button><p class="form-note">Отзыв сохранится здесь, без отправки ученику</p><p class="form-result" id="review-result" role="status" aria-live="polite" hidden></p></form>
+                    </div>
+                  </section>
+                </section>
+
+                <footer class="cab-footer"><span>English.tools · учебный кабинет</span><details class="cabinet-demo-note"><summary>Как работает этот макет</summary><p>Имена, даты, занятия и ответы приведены для примера. Текст и файлы сохраняются в этом браузере; отправка, вход и учёт оплаченных уроков пока не подключены. Несохранённые правки остаются в открытой вкладке. При удалении данных сайта сохранённые задания тоже удалятся.</p></details></footer>
+              </div>
+            </main>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div></body>
+</html>

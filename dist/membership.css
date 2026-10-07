@@ -1,0 +1,25 @@
+.site-header .main-nav a[aria-current=page]{color:var(--purple-pale)}
+.membership-hero{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(260px,.58fr);align-items:end;gap:90px;padding-top:95px;padding-bottom:100px}
+.membership-hero h1{font-size:clamp(51px,5.35vw,78px);line-height:1.11;font-weight:800;letter-spacing:-.035em}
+.membership-hero h1 span{color:#d6a5ee}
+.membership-hero>div:first-child>p{max-width:670px;margin-top:28px;color:#cbbfd2;font-size:16px;line-height:1.8}
+.membership-actions,.membership-bottom>div{display:flex;align-items:center;flex-wrap:wrap;gap:22px;margin-top:28px}
+.membership-status{padding:22px;border:1px solid #5a4267;border-radius:12px;background:#211a29}
+.membership-status .status-dot{display:inline-block;width:6px;height:6px;margin-right:7px;border-radius:50%;background:#cf90ef}
+.membership-status strong{font-size:12px;color:#efd7fb}
+.membership-status p{margin-top:9px;color:#beaec8;font-size:12px;line-height:1.7}
+.membership-compare{padding-top:64px;padding-bottom:82px;border-top:1px solid #342d3a}
+.membership-compare h2,.membership-preview h2,.membership-plan h2,.membership-bottom h2{font-size:clamp(28px,3vw,41px);line-height:1.22;letter-spacing:-.025em}
+.membership-compare h2{max-width:800px;margin-bottom:30px}
+.comparison{border-top:1px solid #5a4863}.comparison-head,.comparison-row{display:grid;grid-template-columns:1fr 1fr;gap:40px}.comparison-head{padding:12px 0;color:#d7a9ef;font-size:11px;font-weight:800}.comparison-row{padding:22px 0;border-top:1px solid #3c3243}.comparison-row p{font-size:14px;line-height:1.55}.comparison-row p:first-child{color:#b4a7be}.comparison-row p:last-child{color:#f3e6f8}
+.membership-preview{display:grid;grid-template-columns:minmax(0,.58fr) minmax(0,1fr);gap:90px;padding-top:78px;padding-bottom:95px;border-top:1px solid #342d3a}
+.preview-intro p,.membership-plan>div:first-child p,.membership-bottom>p{max-width:520px;margin-top:18px;color:#bfb1c9;font-size:14px;line-height:1.8}
+.preview-sheet{padding:27px 30px;border:1px solid #6b5276;border-radius:14px;background:#2d2334;color:#f3e8f8}
+.preview-heading{display:flex;align-items:baseline;justify-content:space-between;gap:15px;border-bottom:1px solid #65516f;padding-bottom:13px}.preview-heading span{font-size:11px;font-weight:800;color:#d9adef}.preview-heading strong{font-size:16px}
+.preview-sheet ol{margin:19px 0 0;padding-left:21px;font-size:13px;line-height:1.75}.preview-sheet li{padding-left:3px;margin-bottom:11px}.preview-sheet>p{border-top:1px solid #65516f;margin-top:20px;padding-top:15px;color:#cbb7d5;font-size:12px;line-height:1.7}
+.membership-plan{display:grid;grid-template-columns:minmax(0,.58fr) minmax(0,1fr);gap:90px;padding-top:75px;padding-bottom:91px;border-top:1px solid #342d3a}
+.plan-list{border-top:1px solid #654c71}.plan-list>div{display:grid;grid-template-columns:115px 180px 1fr;gap:14px;align-items:baseline;padding:19px 0;border-bottom:1px solid #3d3243}.plan-list span{color:#bc88d5;font-size:11px}.plan-list strong{font-size:13px}.plan-list p{color:#aa9bb4;font-size:12px;line-height:1.6}
+.membership-bottom{padding-top:70px;padding-bottom:80px;border-top:1px solid #342d3a}.membership-bottom h2{max-width:750px}.membership-bottom>p{max-width:680px}
+@media(max-width:1000px){.membership-hero,.membership-preview,.membership-plan{gap:35px}.plan-list>div{grid-template-columns:95px 1fr;gap:5px 12px}.plan-list p{grid-column:2}}
+@media(max-width:750px){.membership-hero,.membership-preview,.membership-plan{grid-template-columns:1fr}.membership-hero{padding-top:54px;padding-bottom:61px}.membership-hero h1{font-size:clamp(43px,9.7vw,67px)}.membership-hero>div:first-child>p{font-size:14px;margin-top:20px}.membership-status{max-width:500px}.membership-compare{padding-top:51px;padding-bottom:64px}.comparison-head,.comparison-row{gap:16px}.comparison-row{padding:17px 0}.comparison-row p{font-size:12px}.membership-preview,.membership-plan{padding-top:57px;padding-bottom:65px}.preview-sheet{padding:22px}.membership-bottom{padding-top:55px;padding-bottom:65px}}
+@media(max-width:390px){.comparison-head,.comparison-row{gap:12px}.comparison-row p{font-size:11px}}

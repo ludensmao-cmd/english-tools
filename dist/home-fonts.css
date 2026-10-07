@@ -1,0 +1,6 @@
+/* Manrope is bundled locally; the approved homepage retains its typeface offline. */
+@font-face {font-family:Manrope;font-style:normal;font-weight:400;font-display:swap;src:url('/assets/manrope-400.ttf') format('truetype')}
+@font-face {font-family:Manrope;font-style:normal;font-weight:500;font-display:swap;src:url('/assets/manrope-500.ttf') format('truetype')}
+@font-face {font-family:Manrope;font-style:normal;font-weight:600;font-display:swap;src:url('/assets/manrope-600.ttf') format('truetype')}
+@font-face {font-family:Manrope;font-style:normal;font-weight:700;font-display:swap;src:url('/assets/manrope-700.ttf') format('truetype')}
+@font-face {font-family:Manrope;font-style:normal;font-weight:800;font-display:swap;src:url('/assets/manrope-800.ttf') format('truetype')}

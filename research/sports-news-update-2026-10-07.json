@@ -1,0 +1,46 @@
+{
+  "checkedAt": "2026-10-07",
+  "before": 605,
+  "after": 611,
+  "added": [
+    {
+      "id": "tool-f94e681a81e1",
+      "name": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport"
+    },
+    {
+      "id": "tool-140f16ea9b2c",
+      "name": "Sky Sports",
+      "url": "https://www.skysports.com/"
+    },
+    {
+      "id": "tool-a21f038ed197",
+      "name": "ESPN",
+      "url": "https://www.espn.com/"
+    },
+    {
+      "id": "tool-0687aa4bf815",
+      "name": "The Guardian Sport",
+      "url": "https://www.theguardian.com/uk/sport"
+    },
+    {
+      "id": "tool-4661885c67e5",
+      "name": "NBA News",
+      "url": "https://www.nba.com/news"
+    },
+    {
+      "id": "tool-22846acffe04",
+      "name": "Formula 1 News",
+      "url": "https://www.formula1.com/en/latest"
+    }
+  ],
+  "newsGroup": "reading-list-2",
+  "sportsPositions": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ]
+}

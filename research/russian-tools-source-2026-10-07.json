@@ -1,0 +1,716 @@
+{
+  "checkedAt": "2026-10-07",
+  "resources": [
+    {
+      "number": 1,
+      "name": "Lingualeo",
+      "catalogName": "Lingualeo",
+      "category": "Курс и тренировки",
+      "purpose": "Слова, грамматика, чтение и аудирование в одном сервисе",
+      "russian": "Русский интерфейс и материалы для русскоязычных",
+      "url": "https://lingualeo.com/",
+      "sources": [
+        "https://lingualeo.com/ru/blog/svedeniya-o-platforme/"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": "tool-106f8e0e85ae"
+    },
+    {
+      "number": 2,
+      "name": "Puzzle English",
+      "catalogName": "",
+      "category": "Курс и тренировки",
+      "purpose": "Видеопазлы, упражнения по грамматике, словарь и игры",
+      "russian": "Русский интерфейс и объяснения",
+      "url": "https://puzzle-english.com/",
+      "sources": [
+        "https://puzzle-english.com/faq"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": null
+    },
+    {
+      "number": 3,
+      "name": "Duolingo",
+      "catalogName": "Duolingo",
+      "category": "Курс и тренировки",
+      "purpose": "Короткие уроки на лексику, перевод, чтение и аудирование",
+      "russian": "Русский интерфейс приложения",
+      "url": "https://ru.duolingo.com/",
+      "sources": [
+        "https://apps.apple.com/ru/app/duolingo-%D1%8F%D0%B7%D1%8B%D0%BA%D0%B8-%D0%B8-%D1%88%D0%B0%D1%85%D0%BC%D0%B0%D1%82%D1%8B/id570060128"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": "tool-72908087b815"
+    },
+    {
+      "number": 4,
+      "name": "Busuu",
+      "catalogName": "Busuu",
+      "category": "Курс и тренировки",
+      "purpose": "Уроки английского, грамматика и упражнения с исправлениями сообщества",
+      "russian": "Русский интерфейс есть в официальном списке языков",
+      "url": "https://www.busuu.com/ru/course/uchit-angliskiy-online",
+      "sources": [
+        "https://help.busuu.com/hc/ru/articles/15966588705169-%D0%9C%D0%BE%D0%B6%D0%BD%D0%BE-%D0%BB%D0%B8-%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B8%D1%82%D1%8C-%D1%8F%D0%B7%D1%8B%D0%BA-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81%D0%B0",
+        "https://help.busuu.com/hc/en-gb/articles/16519527128849-How-many-languages-can-I-learn"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": "tool-021a89a31d96"
+    },
+    {
+      "number": 5,
+      "name": "Memrise",
+      "catalogName": "Memrise",
+      "category": "Курс и тренировки",
+      "purpose": "Слова и повседневные фразы с видео носителей",
+      "russian": "Русская версия сайта и курс английского для русскоязычных",
+      "url": "https://www.memrise.com/ru/uchit-angliiskii/kurs-angliiskogo",
+      "sources": [
+        "https://www.memrise.com/ru/uchit-angliiskii/kurs-angliiskogo"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": "tool-a880c97f745e"
+    },
+    {
+      "number": 6,
+      "name": "Simpler",
+      "catalogName": "",
+      "category": "Курс и тренировки",
+      "purpose": "Наглядные правила, тренажёр предложений и аудирование",
+      "russian": "Русский интерфейс и упражнения с русским переводом",
+      "url": "https://play.google.com/store/apps/details?hl=ru&id=ru.zengalt.simpler",
+      "sources": [
+        "https://apps.apple.com/ru/app/simpler-%D1%83%D1%87%D0%B8%D1%82%D1%8C-%D0%B0%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9-%D1%8F%D0%B7%D1%8B%D0%BA/id1265670676"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": null
+    },
+    {
+      "number": 7,
+      "name": "EWA",
+      "catalogName": "",
+      "category": "Курс и тренировки",
+      "purpose": "Уроки по фрагментам фильмов, книги с переводом и словарные игры",
+      "russian": "Русский интерфейс приложения и русская версия сайта",
+      "url": "https://appewa.com/?language=ru",
+      "sources": [
+        "https://play.google.com/store/apps/details?hl=ru&id=com.ewa.ewaapp",
+        "https://apps.apple.com/ua/app/ewa-%D1%83%D1%87%D0%B8%D1%82%D1%8C-%D0%B0%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9-%D1%81-%D0%BD%D1%83%D0%BB%D1%8F/id1200778841?l=ru"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": null
+    },
+    {
+      "number": 8,
+      "name": "English Galaxy",
+      "catalogName": "",
+      "category": "Курс и тренировки",
+      "purpose": "Последовательные уроки по лексике, грамматике и аудированию",
+      "russian": "Материалы и приложение для русскоязычных пользователей",
+      "url": "https://play.google.com/store/apps/details?hl=ru&id=ru.englishgalaxy",
+      "sources": [
+        "https://play.google.com/store/apps/details?hl=ru&id=ru.englishgalaxy"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": null
+    },
+    {
+      "number": 9,
+      "name": "Полиглот — английский язык",
+      "catalogName": "",
+      "category": "Курс и тренировки",
+      "purpose": "Тренажёр построения предложений с курсом из 16 занятий",
+      "russian": "Русский интерфейс; перевод предложений между русским и английским",
+      "url": "https://apps.apple.com/ru/app/%D0%BF%D0%BE%D0%BB%D0%B8%D0%B3%D0%BB%D0%BE%D1%82-%D0%B0%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9-%D1%8F%D0%B7%D1%8B%D0%BA/id594172687?platform=ipad",
+      "sources": [
+        "https://apps.apple.com/ru/app/%D0%BF%D0%BE%D0%BB%D0%B8%D0%B3%D0%BB%D0%BE%D1%82-%D0%B0%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9-%D1%8F%D0%B7%D1%8B%D0%BA/id594172687?platform=ipad"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": null
+    },
+    {
+      "number": 10,
+      "name": "Lim English",
+      "catalogName": "",
+      "category": "Курс и тренировки",
+      "purpose": "Самоучитель с переводом, диктантами, аудированием и словарём",
+      "russian": "Русский интерфейс и инструкции",
+      "url": "https://lim-english.com/",
+      "sources": [
+        "https://lim-english.com/"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": null
+    },
+    {
+      "number": 11,
+      "name": "Loecsen",
+      "catalogName": "Loecsen",
+      "category": "Курс и тренировки",
+      "purpose": "Базовые разговорные фразы, аудио и пошаговые упражнения",
+      "russian": "Русские инструкции и перевод фраз",
+      "url": "https://www.loecsen.com/ru/k%D1%83%D1%80%D1%81%D1%8B-%D0%B0%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9",
+      "sources": [
+        "https://www.loecsen.com/ru/k%D1%83%D1%80%D1%81%D1%8B-%D0%B0%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": "tool-0fc83ee3ee12"
+    },
+    {
+      "number": 12,
+      "name": "50languages",
+      "catalogName": "50 Languages",
+      "category": "Курс и тренировки",
+      "purpose": "Разговорник с озвучкой и упражнениями",
+      "russian": "Русский можно выбрать родным языком при изучении английского",
+      "url": "https://50languages.com/ru/learn/basics/en",
+      "sources": [
+        "https://50languages.com/ru/learn/basics/en",
+        "https://50languages.com/ru/learn/phrasebook-lessons/180/en"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": "tool-a6fb9c8e3f0a"
+    },
+    {
+      "number": 13,
+      "name": "Mondly",
+      "catalogName": "",
+      "category": "Курс и тренировки",
+      "purpose": "Тематические уроки, словарные задания и разговорные упражнения",
+      "russian": "Русский входит в языки приложения",
+      "url": "https://www.mondly.com/",
+      "sources": [
+        "https://apps.apple.com/ai/app/mondly-learn-41-languages/id987873536"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": null
+    },
+    {
+      "number": 14,
+      "name": "Lingvist",
+      "catalogName": "Lingvist",
+      "category": "Слова и карточки",
+      "purpose": "Тренировка английской лексики в контексте",
+      "russian": "Русская версия сайта и материалы курса английского",
+      "url": "https://lingvist.com/ru/kursy/izuchit-angliyskiy-online/",
+      "sources": [
+        "https://lingvist.com/ru/kursy/izuchit-angliyskiy-online/"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": "tool-dd0fbbd24a1a"
+    },
+    {
+      "number": 15,
+      "name": "ReWord",
+      "catalogName": "",
+      "category": "Слова и карточки",
+      "purpose": "Карточки, интервальные повторения и добавление собственных слов",
+      "russian": "Русскоязычная версия для изучения английского",
+      "url": "https://reword.app/ru",
+      "sources": [
+        "https://reword.app/ru"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": null
+    },
+    {
+      "number": 16,
+      "name": "easy ten",
+      "catalogName": "",
+      "category": "Слова и карточки",
+      "purpose": "Небольшие ежедневные наборы слов с озвучкой и тестами",
+      "russian": "Русский интерфейс приложения",
+      "url": "https://apps.apple.com/ru/app/easy-ten-%D1%83%D1%87%D0%B8%D1%82%D1%8C-%D0%B0%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9/id582671477",
+      "sources": [
+        "https://apps.apple.com/ru/app/easy-ten-%D1%83%D1%87%D0%B8%D1%82%D1%8C-%D0%B0%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9/id582671477"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": null
+    },
+    {
+      "number": 17,
+      "name": "Drops",
+      "catalogName": "Drops",
+      "category": "Слова и карточки",
+      "purpose": "Визуальные упражнения на слова и выражения",
+      "russian": "Русский интерфейс приложения",
+      "url": "https://languagedrops.com/",
+      "sources": [
+        "https://apps.apple.com/ru/app/%D1%83%D1%87%D0%B8%D1%82%D0%B5-%D1%8F%D0%B7%D1%8B%D0%BA%D0%B8-%D0%B0%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9-drops/id939540371"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": "tool-7fb3fa1cf523"
+    },
+    {
+      "number": 18,
+      "name": "WordBit — английский язык",
+      "catalogName": "",
+      "category": "Слова и карточки",
+      "purpose": "Английские слова и примеры на экране блокировки телефона",
+      "russian": "Отдельная англо-русская версия для Android",
+      "url": "https://play.google.com/store/apps/details?hl=ru&id=net.wordbit.enru",
+      "sources": [
+        "https://play.google.com/store/apps/details?hl=ru&id=net.wordbit.enru"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": null
+    },
+    {
+      "number": 19,
+      "name": "Anki",
+      "catalogName": "Anki",
+      "category": "Слова и карточки",
+      "purpose": "Собственные карточки с интервальным повторением",
+      "russian": "Русский интерфейс; содержание карточек создаёт пользователь",
+      "url": "https://apps.ankiweb.net/",
+      "sources": [
+        "https://apps.apple.com/ru/app/ankimobile-flashcards/id373493387",
+        "https://docs.ankiweb.net/preferences.html?highlight=dark+mode"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": "tool-47335272c90d"
+    },
+    {
+      "number": 20,
+      "name": "Quizlet",
+      "catalogName": "Quizlet",
+      "category": "Слова и карточки",
+      "purpose": "Карточки, режимы заучивания и проверка знаний",
+      "russian": "Русский интерфейс; подходят англо-русские наборы",
+      "url": "https://quizlet.com/ru",
+      "sources": [
+        "https://apps.apple.com/ru/app/quizlet-%D1%83%D1%87%D0%B8%D1%82%D0%B5%D1%81%D1%8C-%D0%BF%D0%BE-%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%87%D0%BA%D0%B0%D0%BC/id546473125"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": "tool-47f0d30c368a"
+    },
+    {
+      "number": 21,
+      "name": "Lingust",
+      "catalogName": "",
+      "category": "Грамматика и материалы",
+      "purpose": "Самоучитель английского с нуля, объяснения и аудиоматериалы",
+      "russian": "Объяснения и инструкции на русском",
+      "url": "https://lingust.ru/english",
+      "sources": [
+        "https://lingust.ru/english"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": null
+    },
+    {
+      "number": 22,
+      "name": "Study.ru",
+      "catalogName": "",
+      "category": "Грамматика и материалы",
+      "purpose": "Грамматические тесты, статьи и проверка уровня",
+      "russian": "Русский интерфейс и пояснения",
+      "url": "https://www.study.ru/test/grammaticheskie-testy",
+      "sources": [
+        "https://www.study.ru/test/grammaticheskie-testy",
+        "https://www.study.ru/test/opredeli-svoy-uroven-angliyskogo"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": null
+    },
+    {
+      "number": 23,
+      "name": "Begin English",
+      "catalogName": "",
+      "category": "Грамматика и материалы",
+      "purpose": "Справочник, самоучитель, словарные подборки и материалы для начинающих",
+      "russian": "Русские объяснения и навигация",
+      "url": "https://begin-english.ru/",
+      "sources": [
+        "https://begin-english.ru/"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": null
+    },
+    {
+      "number": 24,
+      "name": "Engblog",
+      "catalogName": "",
+      "category": "Грамматика и материалы",
+      "purpose": "Статьи по грамматике с примерами и пояснениями",
+      "russian": "Материалы на русском",
+      "url": "https://engblog.ru/grammar",
+      "sources": [
+        "https://engblog.ru/grammar"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": null
+    },
+    {
+      "number": 25,
+      "name": "WooordHunt",
+      "catalogName": "",
+      "category": "Словари и перевод",
+      "purpose": "Значения, примеры, произношение и тренировка собственных слов",
+      "russian": "Англо-русские словари и русский интерфейс",
+      "url": "https://wooordhunt.ru/",
+      "sources": [
+        "https://wooordhunt.ru/"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": null
+    },
+    {
+      "number": 26,
+      "name": "Мультитран",
+      "catalogName": "",
+      "category": "Словари и перевод",
+      "purpose": "Переводы слов и терминов по предметным областям",
+      "russian": "Англо-русская словарная пара",
+      "url": "https://www.multitran.com/m.exe?l1=1&l2=2",
+      "sources": [
+        "https://www.multitran.com/m.exe?l1=1&l2=2"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": null
+    },
+    {
+      "number": 27,
+      "name": "Reverso Context",
+      "catalogName": "Reverso Context",
+      "category": "Словари и перевод",
+      "purpose": "Перевод слов и выражений на примерах предложений",
+      "russian": "Русские переводы и русская версия сайта",
+      "url": "https://context.reverso.net/перевод/английский-русский/",
+      "sources": [
+        "https://context.reverso.net/перевод/английский-русский/"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": "tool-9a07a8d8ff58"
+    },
+    {
+      "number": 28,
+      "name": "Cambridge Dictionary",
+      "catalogName": "Cambridge Dictionary",
+      "category": "Словари и перевод",
+      "purpose": "Учебный англо-русский словарь с примерами употребления",
+      "russian": "Русские переводы и русская версия словаря",
+      "url": "https://dictionary.cambridge.org/ru/%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D1%8C/%D0%B0%D0%BD%D0%B3%D0%BB%D0%BE-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9/",
+      "sources": [
+        "https://dictionary.cambridge.org/ru/%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D1%8C/%D0%B0%D0%BD%D0%B3%D0%BB%D0%BE-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9/"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": "tool-d8d7ba65eb85"
+    },
+    {
+      "number": 29,
+      "name": "WordReference",
+      "catalogName": "WordReference",
+      "category": "Словари и перевод",
+      "purpose": "Англо-русский словарь и форум с обсуждением переводов",
+      "russian": "Русские переводы; часть справочных материалов на английском",
+      "url": "https://www.wordreference.com/enru/",
+      "sources": [
+        "https://www.wordreference.com/enru/"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": "tool-a860f65adf2c"
+    },
+    {
+      "number": 30,
+      "name": "Forvo",
+      "catalogName": "Forvo",
+      "category": "Произношение",
+      "purpose": "Записи произношения английских слов носителями",
+      "russian": "Русская версия сайта; озвучка слов на английском",
+      "url": "https://ru.forvo.com/",
+      "sources": [
+        "https://ru.forvo.com/"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": "tool-56dbf48fbb4b"
+    },
+    {
+      "number": 31,
+      "name": "PROMT.One",
+      "catalogName": "",
+      "category": "Словари и перевод",
+      "purpose": "Перевод текстов, словарь и примеры употребления",
+      "russian": "Русский интерфейс и англо-русский перевод",
+      "url": "https://www.translate.ru/перевод/английский-русский",
+      "sources": [
+        "https://www.translate.ru/%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-%D0%B0%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9/%2C"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": null
+    },
+    {
+      "number": 32,
+      "name": "Яндекс Переводчик",
+      "catalogName": "",
+      "category": "Словари и перевод",
+      "purpose": "Перевод, словарь, транскрипция и произношение",
+      "russian": "Русский интерфейс и англо-русский перевод",
+      "url": "https://translate.yandex.ru/",
+      "sources": [
+        "https://translate.yandex.ru/"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": null
+    },
+    {
+      "number": 33,
+      "name": "Google Переводчик",
+      "catalogName": "Google Translate",
+      "category": "Словари и перевод",
+      "purpose": "Перевод слов и текстов, озвучка и перевод с изображений",
+      "russian": "Русский интерфейс и англо-русский перевод",
+      "url": "https://translate.google.com/?hl=ru&sl=en&tl=ru",
+      "sources": [
+        "https://translate.google.com/?hl=ru&sl=en&tl=ru"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": "tool-095a0285955b"
+    },
+    {
+      "number": 34,
+      "name": "DeepL Переводчик",
+      "catalogName": "DeepL Translate",
+      "category": "Словари и перевод",
+      "purpose": "Перевод текстов и документов между английским и русским",
+      "russian": "Русский интерфейс и поддержка русского перевода",
+      "url": "https://www.deepl.com/ru/translator",
+      "sources": [
+        "https://www.deepl.com/ru/translator"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": "tool-6be673190e2d"
+    },
+    {
+      "number": 35,
+      "name": "AnyLang",
+      "catalogName": "AnyLang Books",
+      "category": "Книги и видео",
+      "purpose": "Чтение английских книг с параллельным переводом",
+      "russian": "Русская версия сайта и перевод на русский",
+      "url": "https://anylang.net/ru/books/en",
+      "sources": [
+        "https://anylang.net/ru/books/en"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": "tool-83429d67e71b"
+    },
+    {
+      "number": 36,
+      "name": "Beelinguapp",
+      "catalogName": "Beelinguapp",
+      "category": "Книги и видео",
+      "purpose": "Истории и аудиокниги с параллельными текстами",
+      "russian": "Русская версия сайта; русский доступен как язык параллельного текста",
+      "url": "https://beelinguapp.com/ru/courses/learn-english",
+      "sources": [
+        "https://beelinguapp.com/ru/courses/learn-english",
+        "https://beelinguapp.com/ru/"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": "tool-4bd658f92bda"
+    },
+    {
+      "number": 37,
+      "name": "LingQ",
+      "catalogName": "LingQ",
+      "category": "Книги и видео",
+      "purpose": "Чтение и прослушивание материалов с сохранением новых слов",
+      "russian": "Русская версия сайта и работа с русским переводом",
+      "url": "https://www.lingq.com/ru/",
+      "sources": [
+        "https://www.lingq.com/ru/"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": "tool-52dceae2bd70"
+    },
+    {
+      "number": 38,
+      "name": "Smart Book / Билингва",
+      "catalogName": "",
+      "category": "Книги и видео",
+      "purpose": "Читалка с параллельным переводом и словарём из прочитанного",
+      "russian": "Чтение английских книг с русским переводом",
+      "url": "https://play.google.com/store/apps/details?hl=ru&id=com.kursx.smartbook",
+      "sources": [
+        "https://play.google.com/store/apps/details?hl=ru&id=com.kursx.smartbook"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": null
+    },
+    {
+      "number": 39,
+      "name": "ORORO",
+      "catalogName": "ORORO",
+      "category": "Книги и видео",
+      "purpose": "Видео в оригинале с субтитрами и переводчиком",
+      "russian": "Русский интерфейс сайта; перевод субтитров",
+      "url": "https://ororo.tv/ru",
+      "sources": [
+        "https://ororo.tv/ru"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": "tool-cb783e531b08"
+    },
+    {
+      "number": 40,
+      "name": "InOriginal",
+      "catalogName": "InOriginal",
+      "category": "Книги и видео",
+      "purpose": "Фильмы и сериалы в оригинале с субтитрами",
+      "russian": "Русский интерфейс, русские и двойные субтитры",
+      "url": "https://inoriginal.cc/",
+      "sources": [
+        "https://inoriginal.cc/"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": "tool-73e189aafb3d"
+    },
+    {
+      "number": 41,
+      "name": "Language Reactor",
+      "catalogName": "Language Reactor",
+      "category": "Книги и видео",
+      "purpose": "Расширение для изучения языка по видео и текстам с переводом",
+      "russian": "Русский входит в языки расширения; можно использовать русский перевод",
+      "url": "https://www.languagereactor.com/",
+      "sources": [
+        "https://chromewebstore.google.com/detail/language-reactor/hoombieeljmmljlkjmnheibnpciblicm?hl=ru-ru"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": "tool-2616b0c0f236"
+    },
+    {
+      "number": 42,
+      "name": "Tandem",
+      "catalogName": "Tandem",
+      "category": "Разговорная практика",
+      "purpose": "Поиск партнёров для переписки, голосовых сообщений и звонков",
+      "russian": "Русский интерфейс приложения",
+      "url": "https://tandem.net/ru",
+      "sources": [
+        "https://apps.apple.com/ru/app/tandem-%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%B2%D0%B0%D1%8F-%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0/id959001619?platform=mac",
+        "https://tandem.net/ru"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": "tool-5b29db503bec"
+    },
+    {
+      "number": 43,
+      "name": "HelloTalk",
+      "catalogName": "HelloTalk",
+      "category": "Разговорная практика",
+      "purpose": "Языковой обмен с переводом и исправлением сообщений",
+      "russian": "Русский интерфейс приложения",
+      "url": "https://www.hellotalk.com/?lang=ru",
+      "sources": [
+        "https://apps.apple.com/ru/app/hellotalk-%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%B2%D0%BE%D0%B9-%D0%BE%D0%B1%D0%BC%D0%B5%D0%BD/id557130558",
+        "https://www.hellotalk.com/?lang=ru"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": "tool-eb01557235dc"
+    },
+    {
+      "number": 44,
+      "name": "Praktika",
+      "catalogName": "Praktika",
+      "category": "Практика с ИИ",
+      "purpose": "Разговоры вслух с ИИ-репетиторами и обратная связь",
+      "russian": "Русский интерфейс приложения",
+      "url": "https://praktika.ai/",
+      "sources": [
+        "https://apps.apple.com/ru/app/praktika-%D0%B0%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9-%D1%8F%D0%B7%D1%8B%D0%BA/id1624701477?at=1000l6eA"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": "tool-23140ea4c0ad"
+    },
+    {
+      "number": 45,
+      "name": "Talkpal",
+      "catalogName": "Talkpal",
+      "category": "Практика с ИИ",
+      "purpose": "Диалоги и ролевые упражнения с ИИ",
+      "russian": "Русская версия сайта; русский интерфейс приложения не подтверждён",
+      "url": "https://talkpal.ai/ru/",
+      "sources": [
+        "https://talkpal.ai/ru/",
+        "https://talkpal.ai/support/how-do-i-change-the-language-settings-in-talkpal-ai/"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": "tool-ad35dfc1c746"
+    },
+    {
+      "number": 46,
+      "name": "Алиса AI",
+      "catalogName": "",
+      "category": "Практика с ИИ",
+      "purpose": "Практика английских диалогов и разбор вопросов на русском",
+      "russian": "Русский интерфейс и объяснения; английский режим запускается отдельно",
+      "url": "https://alice.yandex.ru/",
+      "sources": [
+        "https://alice.yandex.ru/support/ru/assistant/language-english",
+        "https://alice.yandex.ru/support/ru/assistant/chat/study"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": null
+    },
+    {
+      "number": 47,
+      "name": "ГигаЧат",
+      "catalogName": "",
+      "category": "Практика с ИИ",
+      "purpose": "Упражнения, объяснения, переводы и проверка текстов по запросу",
+      "russian": "Русский интерфейс и ответы на русском",
+      "url": "https://giga.chat/",
+      "sources": [
+        "https://giga.chat/help/articles/ai-for-learning-english?ysclid=mh2ki4ijng787414587",
+        "https://giga.chat/portal"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": null
+    },
+    {
+      "number": 48,
+      "name": "EF SET",
+      "catalogName": "EF SET",
+      "category": "Тесты",
+      "purpose": "Онлайн-тест уровня английского",
+      "russian": "Русские страницы и инструкции; задания проверяют английский",
+      "url": "https://www.efset.org/ru/",
+      "sources": [
+        "https://www.efset.org/ru/"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": "tool-714ab9725bc1"
+    },
+    {
+      "number": 49,
+      "name": "LanguageTool",
+      "catalogName": "LanguageTool",
+      "category": "Письмо",
+      "purpose": "Проверка грамматики, орфографии и стиля английского текста",
+      "russian": "Русская версия сайта; язык проверяемого текста выбирается отдельно",
+      "url": "https://languagetool.org/ru",
+      "sources": [
+        "https://languagetool.org/ru"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": "tool-05303aefe4b4"
+    },
+    {
+      "number": 50,
+      "name": "Wordwall",
+      "catalogName": "Wordwall",
+      "category": "Упражнения для уроков",
+      "purpose": "Создание интерактивных упражнений и готовые задания сообщества",
+      "russian": "Русский интерфейс; содержание заданий выбирает автор",
+      "url": "https://wordwall.net/ru",
+      "sources": [
+        "https://wordwall.net/ru"
+      ],
+      "checkedAt": "2026-10-07",
+      "catalogId": "tool-b614d697fac0"
+    }
+  ]
+}

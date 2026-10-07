@@ -1,0 +1,255 @@
+{
+  "checkedAt": "2026-10-07",
+  "before": 584,
+  "after": 605,
+  "added": [
+    {
+      "id": "tool-4d7b98761c6e",
+      "name": "Puzzle English",
+      "url": "https://puzzle-english.com/"
+    },
+    {
+      "id": "tool-426e458e8d7b",
+      "name": "Simpler",
+      "url": "https://play.google.com/store/apps/details?hl=ru&id=ru.zengalt.simpler"
+    },
+    {
+      "id": "tool-88623b27e55b",
+      "name": "EWA",
+      "url": "https://appewa.com/?language=ru"
+    },
+    {
+      "id": "tool-313984a17c87",
+      "name": "English Galaxy",
+      "url": "https://play.google.com/store/apps/details?hl=ru&id=ru.englishgalaxy"
+    },
+    {
+      "id": "tool-b45c14b262dc",
+      "name": "Полиглот — английский язык",
+      "url": "https://apps.apple.com/ru/app/%D0%BF%D0%BE%D0%BB%D0%B8%D0%B3%D0%BB%D0%BE%D1%82-%D0%B0%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9-%D1%8F%D0%B7%D1%8B%D0%BA/id594172687?platform=ipad"
+    },
+    {
+      "id": "tool-53a1560cd93c",
+      "name": "Lim English",
+      "url": "https://lim-english.com/"
+    },
+    {
+      "id": "tool-fddb5789e364",
+      "name": "Mondly",
+      "url": "https://www.mondly.com/"
+    },
+    {
+      "id": "tool-301a59f550a8",
+      "name": "ReWord",
+      "url": "https://reword.app/ru"
+    },
+    {
+      "id": "tool-e1c8b3cd786b",
+      "name": "easy ten",
+      "url": "https://apps.apple.com/ru/app/easy-ten-%D1%83%D1%87%D0%B8%D1%82%D1%8C-%D0%B0%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9/id582671477"
+    },
+    {
+      "id": "tool-6ed93d9a9e82",
+      "name": "WordBit — английский язык",
+      "url": "https://play.google.com/store/apps/details?hl=ru&id=net.wordbit.enru"
+    },
+    {
+      "id": "tool-b703f142de6a",
+      "name": "Lingust",
+      "url": "https://lingust.ru/english"
+    },
+    {
+      "id": "tool-35f34b4ff0bd",
+      "name": "Study.ru",
+      "url": "https://www.study.ru/test/grammaticheskie-testy"
+    },
+    {
+      "id": "tool-6a5c60ad9263",
+      "name": "Begin English",
+      "url": "https://begin-english.ru/"
+    },
+    {
+      "id": "tool-ea4333826084",
+      "name": "Engblog",
+      "url": "https://engblog.ru/grammar"
+    },
+    {
+      "id": "tool-67a76af73cd5",
+      "name": "WooordHunt",
+      "url": "https://wooordhunt.ru/"
+    },
+    {
+      "id": "tool-86dc4448e9ec",
+      "name": "Мультитран",
+      "url": "https://www.multitran.com/m.exe?l1=1&l2=2"
+    },
+    {
+      "id": "tool-ca9b50d2a7bc",
+      "name": "PROMT.One",
+      "url": "https://www.translate.ru/перевод/английский-русский"
+    },
+    {
+      "id": "tool-3e2a64de1200",
+      "name": "Яндекс Переводчик",
+      "url": "https://translate.yandex.ru/"
+    },
+    {
+      "id": "tool-61d4732f84cf",
+      "name": "Smart Book / Билингва",
+      "url": "https://play.google.com/store/apps/details?hl=ru&id=com.kursx.smartbook"
+    },
+    {
+      "id": "tool-ed6005570d39",
+      "name": "Алиса AI",
+      "url": "https://alice.yandex.ru/"
+    },
+    {
+      "id": "tool-e05ca6b0c041",
+      "name": "ГигаЧат",
+      "url": "https://giga.chat/"
+    }
+  ],
+  "updatedUrls": [
+    {
+      "id": "tool-72908087b815",
+      "name": "Duolingo",
+      "oldUrl": "https://www.duolingo.com/",
+      "url": "https://ru.duolingo.com/"
+    },
+    {
+      "id": "tool-021a89a31d96",
+      "name": "Busuu",
+      "oldUrl": "https://www.busuu.com/en/course/learn-english-online",
+      "url": "https://www.busuu.com/ru/course/uchit-angliskiy-online"
+    },
+    {
+      "id": "tool-a880c97f745e",
+      "name": "Memrise",
+      "oldUrl": "https://www.memrise.com/",
+      "url": "https://www.memrise.com/ru/uchit-angliiskii/kurs-angliiskogo"
+    },
+    {
+      "id": "tool-0fc83ee3ee12",
+      "name": "Loecsen",
+      "oldUrl": "https://www.loecsen.com/",
+      "url": "https://www.loecsen.com/ru/k%D1%83%D1%80%D1%81%D1%8B-%D0%B0%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9"
+    },
+    {
+      "id": "tool-a6fb9c8e3f0a",
+      "name": "50 Languages",
+      "oldUrl": "https://50languages.com/",
+      "url": "https://50languages.com/ru/learn/basics/en"
+    },
+    {
+      "id": "tool-dd0fbbd24a1a",
+      "name": "Lingvist",
+      "oldUrl": "https://lingvist.com/",
+      "url": "https://lingvist.com/ru/kursy/izuchit-angliyskiy-online/"
+    },
+    {
+      "id": "tool-47f0d30c368a",
+      "name": "Quizlet",
+      "oldUrl": "https://quizlet.com/",
+      "url": "https://quizlet.com/ru"
+    },
+    {
+      "id": "tool-9a07a8d8ff58",
+      "name": "Reverso Context",
+      "oldUrl": "https://context.reverso.net/translation/english-russian/",
+      "url": "https://context.reverso.net/перевод/английский-русский/"
+    },
+    {
+      "id": "tool-d8d7ba65eb85",
+      "name": "Cambridge Dictionary",
+      "oldUrl": "https://dictionary.cambridge.org/",
+      "url": "https://dictionary.cambridge.org/ru/%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D1%8C/%D0%B0%D0%BD%D0%B3%D0%BB%D0%BE-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9/"
+    },
+    {
+      "id": "tool-a860f65adf2c",
+      "name": "WordReference",
+      "oldUrl": "https://www.wordreference.com/",
+      "url": "https://www.wordreference.com/enru/"
+    },
+    {
+      "id": "tool-56dbf48fbb4b",
+      "name": "Forvo",
+      "oldUrl": "https://forvo.com/languages/en/",
+      "url": "https://ru.forvo.com/languages/en/"
+    },
+    {
+      "id": "tool-095a0285955b",
+      "name": "Google Translate",
+      "oldUrl": "https://translate.google.com/",
+      "url": "https://translate.google.com/?hl=ru&sl=en&tl=ru"
+    },
+    {
+      "id": "tool-6be673190e2d",
+      "name": "DeepL Translate",
+      "oldUrl": "https://www.deepl.com/translator",
+      "url": "https://www.deepl.com/ru/translator"
+    },
+    {
+      "id": "tool-83429d67e71b",
+      "name": "AnyLang Books",
+      "oldUrl": "https://anylang.net/en/books/",
+      "url": "https://anylang.net/ru/books/en"
+    },
+    {
+      "id": "tool-4bd658f92bda",
+      "name": "Beelinguapp",
+      "oldUrl": "https://beelinguapp.com/",
+      "url": "https://beelinguapp.com/ru/courses/learn-english"
+    },
+    {
+      "id": "tool-52dceae2bd70",
+      "name": "LingQ",
+      "oldUrl": "https://www.lingq.com/",
+      "url": "https://www.lingq.com/ru/"
+    },
+    {
+      "id": "tool-cb783e531b08",
+      "name": "ORORO",
+      "oldUrl": "https://ororo.tv/",
+      "url": "https://ororo.tv/ru"
+    },
+    {
+      "id": "tool-5b29db503bec",
+      "name": "Tandem",
+      "oldUrl": "https://tandem.net/",
+      "url": "https://tandem.net/ru"
+    },
+    {
+      "id": "tool-eb01557235dc",
+      "name": "HelloTalk",
+      "oldUrl": "https://www.hellotalk.com/",
+      "url": "https://www.hellotalk.com/?lang=ru"
+    },
+    {
+      "id": "tool-ad35dfc1c746",
+      "name": "Talkpal",
+      "oldUrl": "https://talkpal.ai/",
+      "url": "https://talkpal.ai/ru/"
+    },
+    {
+      "id": "tool-714ab9725bc1",
+      "name": "EF SET",
+      "oldUrl": "https://www.efset.org/",
+      "url": "https://www.efset.org/ru/"
+    },
+    {
+      "id": "tool-05303aefe4b4",
+      "name": "LanguageTool",
+      "oldUrl": "https://languagetool.org/",
+      "url": "https://languagetool.org/ru"
+    },
+    {
+      "id": "tool-b614d697fac0",
+      "name": "Wordwall",
+      "oldUrl": "https://wordwall.net/",
+      "url": "https://wordwall.net/ru"
+    }
+  ],
+  "researchedTools": 50,
+  "researchedToolsPresent": 50,
+  "dictionaryCount": 25
+}

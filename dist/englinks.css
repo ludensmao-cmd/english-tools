@@ -1,0 +1,94 @@
+/* The selected Englinks CSS owns geometry, typography, components and breakpoints.
+   This layer changes only our brand and implements static-site interaction states. */
+:root {
+  --vp-c-brand-1:#8a45ce;
+  --vp-c-brand-2:#7534b8;
+  --vp-c-brand-3:#6730a5;
+  --vp-c-brand-soft:rgba(141,71,208,.12);
+  --vp-c-custom-1:#8a45ce;
+  --vp-c-custom-2:#7534b8;
+  --vp-c-custom-3:#6730a5;
+  --vp-c-custom-soft:rgba(141,71,208,.12);
+}
+.dark {
+  --vp-c-bg:#100e14;
+  --vp-c-bg-alt:#18141e;
+  --vp-c-bg-soft:#211b29;
+  --vp-c-divider:#39323e;
+  --vp-c-text-1:#f7f2fa;
+  --vp-c-text-2:#bfb0c8;
+  --vp-c-brand-1:#cf9bff;
+  --vp-c-brand-2:#bd80f5;
+  --vp-c-brand-3:#a763e0;
+  --vp-c-brand-soft:rgba(190,125,243,.14);
+  --vp-c-custom-1:#cf9bff;
+  --vp-c-custom-2:#bd80f5;
+  --vp-c-custom-3:#a763e0;
+  --vp-c-custom-soft:rgba(190,125,243,.14);
+}
+.englinks-page [hidden] {display:none!important}
+.englinks-page ::selection {background:var(--vp-c-brand-soft);color:var(--vp-c-text-1)}
+.englinks-page input,.englinks-page textarea {caret-color:var(--vp-c-brand-1)}
+.englinks-page :focus-visible {outline:2px solid var(--vp-c-brand-1);outline-offset:3px}
+.englinks-page .VPNavBarTitle .english-brand {width:144px;height:58px;margin:0;object-fit:contain;object-position:center}
+.englinks-page .VPSwitchAppearance .check {transition:transform .2s}
+.englinks-page .VPNavBarHamburger.active .top {transform:translateY(6px) rotate(45deg)}
+.englinks-page .VPNavBarHamburger.active .middle {opacity:0}
+.englinks-page .VPNavBarHamburger.active .bottom {transform:translateY(-6px) rotate(-45deg)}
+.englinks-page .english-doc-footer {margin-top:48px;padding-top:24px;border-top:1px solid var(--vp-c-divider);font-size:13px;color:var(--vp-c-text-2);display:flex;flex-wrap:wrap;gap:12px 24px}
+.englinks-page .english-doc-footer a {color:var(--vp-c-text-2);text-decoration:none}
+.englinks-page .english-doc-footer a:hover {color:var(--vp-c-brand-1)}
+.englinks-page .english-role-title {font-size:14px;font-weight:500;color:var(--vp-c-text-2)}
+.englinks-page .english-search {padding:0;border:1px solid var(--vp-c-divider);border-radius:12px;max-width:640px;width:calc(100% - 32px);background:var(--vp-c-bg);color:var(--vp-c-text-1);box-shadow:var(--vp-shadow-3);margin:12vh auto auto}
+.englinks-page .english-search::backdrop {background:var(--vp-backdrop-bg-color)}
+.englinks-page .english-search-head {display:flex;align-items:center;gap:12px;padding:20px;border-bottom:1px solid var(--vp-c-divider)}
+.englinks-page .english-search-head label {position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+.englinks-page .english-search-head input {width:100%;min-width:0;padding:8px 0;font-size:16px;color:var(--vp-c-text-1);background:transparent;outline:none}
+.englinks-page .english-search-close {padding:4px 8px;border-radius:6px;border:1px solid var(--vp-c-divider);font-size:12px}
+.englinks-page .english-search-results {padding:12px;max-height:56vh;overflow:auto}
+.englinks-page .english-search-results a {display:block;padding:12px;border-radius:8px;line-height:1.5}
+.englinks-page .english-search-results a:hover,.englinks-page .english-search-results a:focus-visible {background:var(--vp-c-brand-soft)}
+.englinks-page .english-search-results small {display:block;margin-top:4px;font-size:13px;color:var(--vp-c-text-2)}
+.englinks-page .english-search-results p {margin:8px;font-size:14px;color:var(--vp-c-text-2)}
+.englinks-page .no-js-links {display:flex;flex-wrap:wrap;gap:12px 24px;padding:16px 24px;border-bottom:1px solid var(--vp-c-divider)}
+
+/* The header's nowrap must stop at the dictionary panel. Long Russian group
+   titles and English product names wrap inside their own columns. */
+.englinks-page .dict-menu .dict-menu__button {font-family:Manrope,system-ui,sans-serif;font-size:14px;line-height:1.4;}
+.englinks-page .dict-menu .dict-menu__panel {
+ width:min(1000px,calc(100vw - 48px));max-height:calc(100dvh - var(--vp-nav-height,64px) - 32px);
+ top:calc(var(--vp-nav-height,64px) + 8px);padding:24px;gap:28px;
+ grid-template-columns:repeat(4,minmax(0,1fr));align-items:start;
+ white-space:normal;font-family:Manrope,system-ui,sans-serif;font-size:14px;line-height:1.5;
+ background:#211b29;border:0;border-radius:16px;box-shadow:0 20px 56px rgba(5,2,9,.5);
+ overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:#6b4c79 #211b29;
+}
+.englinks-page .dict-menu .dict-menu__group {min-width:0;gap:2px;}
+.englinks-page .dict-menu .dict-menu__title {
+ display:grid;grid-template-columns:28px minmax(0,1fr);align-items:center;gap:10px;
+ min-width:0;margin:0 0 12px;font:700 13px/1.5 Manrope,system-ui,sans-serif;
+ white-space:normal;overflow-wrap:anywhere;color:#e5c7f6;
+}
+.englinks-page .dict-menu .dict-menu__badge {background:#382943;border-radius:8px;}
+.englinks-page .dict-menu .dict-menu__link {
+ display:grid;grid-template-columns:18px minmax(0,1fr) 12px;align-items:center;gap:10px;
+ min-width:0;min-height:40px;margin:0 -8px;padding:8px;border-radius:8px;
+ white-space:normal;font:500 14px/1.5 Manrope,system-ui,sans-serif;
+}
+.englinks-page .dict-menu .dict-menu__text {white-space:normal;overflow-wrap:anywhere;line-height:1.5;}
+.englinks-page .dict-menu .dict-menu__favicon {align-self:start;margin-top:3px;}
+.englinks-page .dict-menu .dict-menu__link:hover {background:#382943;}
+.englinks-page .dict-menu .dict-menu__arrow {opacity:.55;}
+.englinks-page .dict-menu .dict-menu__button[aria-expanded="true"] .dict-menu__chevron {transform:rotate(180deg);}
+@media (min-width:768px) and (max-width:1180px) {
+ .englinks-page .VPNavBarSearch .DocSearch-Button {width:38px!important;padding:0!important;justify-content:center!important;}
+ .englinks-page .VPNavBarSearch .DocSearch-Button-Placeholder,.englinks-page .VPNavBarSearch .DocSearch-Button-Keys {display:none!important;}
+ .englinks-page .VPNavBarSearch .DocSearch-Button-Container {justify-content:center;}
+}
+@media (max-width:1100px) {
+ .englinks-page .dict-menu .dict-menu__panel {width:min(720px,calc(100vw - 40px));grid-template-columns:repeat(2,minmax(0,1fr));gap:28px;}
+}
+@media (max-width:560px) {
+ .englinks-page .dict-menu .dict-menu__panel {width:calc(100vw - 24px);padding:20px;grid-template-columns:1fr;gap:24px;}
+}
+@media (prefers-reduced-motion:reduce) {.englinks-page * {scroll-behavior:auto!important;animation:none!important;transition:none!important}}

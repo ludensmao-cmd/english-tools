@@ -1,0 +1,2988 @@
+{
+  "groups": [
+    {
+      "id": "social-media-list-1",
+      "label": "Instagram",
+      "headingId": "instagram",
+      "anchors": [
+        "bbclearningenglish",
+        "englishingeneral",
+        "englishwithlucy",
+        "ewaenglish",
+        "ielts_advantage",
+        "learningenglishwithoxford",
+        "learnwithlondoner",
+        "theenglishcoach",
+        "acquirenglish",
+        "aluxnating",
+        "beespeakerapp",
+        "cambridgeenglishellen",
+        "chokenglish",
+        "english__evolve2",
+        "english_withelo",
+        "englishclassin",
+        "englishgrammarvocab",
+        "englishspeakingtips",
+        "englishagenda",
+        "fixolang",
+        "fluentlyeve",
+        "gortisenglish",
+        "grammarenglishtips",
+        "hanabronwen",
+        "ielts_seekers",
+        "ielts_winnersanshu",
+        "ieltsonlineclasses_",
+        "languagebridgeacademy",
+        "lola_speak",
+        "mashable",
+        "miss_englishteacher_",
+        "mondlylanguages",
+        "natgeo",
+        "newscientist",
+        "oryvicteng",
+        "promova",
+        "rapidenglish4u",
+        "roastmyenglish",
+        "sciencealert",
+        "scientific_american",
+        "teachingenglishwithoxford",
+        "theenglishmentor",
+        "thedoorsofenglish",
+        "theeconomist",
+        "vocabularydailywords",
+        "zafarmirzoquote"
+      ]
+    },
+    {
+      "id": "social-media-list-2",
+      "label": "Reddit",
+      "headingId": "reddit",
+      "anchors": [
+        "documentaries",
+        "eating-healthy-on-a-cheap-budget",
+        "english",
+        "englishlearning",
+        "etymology",
+        "nature-is-fucking-lit",
+        "next-fucking-level",
+        "today-i-learned",
+        "every-man-should-know",
+        "getmotivated",
+        "howto",
+        "i-want-to-learn",
+        "learn-useless-talents",
+        "moviedetails",
+        "thatsinsane",
+        "what-could-go-right"
+      ]
+    },
+    {
+      "id": "social-media-list-3",
+      "label": "X / Twitter",
+      "headingId": "twitter",
+      "anchors": [
+        "english-reference",
+        "alex-books",
+        "ali-neshatnikoo",
+        "bbc-world",
+        "best-grammar-tip",
+        "cnn",
+        "cnn-breaking-news",
+        "dickie-bush",
+        "ella-language",
+        "english-clubber",
+        "english-grammar",
+        "english-grammar-resource-2",
+        "english-speaking-tips",
+        "english-tips",
+        "englishx",
+        "firenox-english",
+        "grammar-club",
+        "grammar-updates",
+        "ienglish-grammar",
+        "knowledge-hub",
+        "learn-english-quickly",
+        "library-mindset",
+        "nasa",
+        "power-thesaurus",
+        "rapid-english",
+        "ted-ielts",
+        "the-academy",
+        "the-english-guide",
+        "the-new-york-times",
+        "time"
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "name": "bbclearningenglish",
+      "url": "https://www.instagram.com/bbclearningenglish/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Слова",
+        "Читать"
+      ],
+      "description": "bbclearningenglish — страница Instagram; темы публикаций: лексика. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Соцсети",
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 0,
+          "anchor": "bbclearningenglish"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-ea3fa04c958e",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-5"
+    },
+    {
+      "name": "Documentaries",
+      "url": "https://www.reddit.com/r/Documentaries/",
+      "category": "Соцсети",
+      "kind": "Reddit",
+      "skills": [
+        "Слова",
+        "Читать"
+      ],
+      "description": "Documentaries — сообщество Reddit; темы публикаций: разные повседневные темы. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Соцсети",
+        "Reddit"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-2",
+          "order": 0,
+          "anchor": "documentaries"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-0eab9647d031",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-5"
+    },
+    {
+      "name": "Eating healthy on a cheap budget",
+      "url": "https://www.reddit.com/r/EatCheapAndHealthy/",
+      "category": "Соцсети",
+      "kind": "Reddit",
+      "skills": [
+        "Слова",
+        "Читать"
+      ],
+      "description": "Eating healthy on a cheap budget — сообщество Reddit; темы публикаций: еда и рецепты. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Соцсети",
+        "Reddit"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-2",
+          "order": 1,
+          "anchor": "eating-healthy-on-a-cheap-budget"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-a8ee2571d3e3",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-5"
+    },
+    {
+      "name": "English",
+      "url": "https://www.reddit.com/r/English/",
+      "category": "Соцсети",
+      "kind": "Reddit",
+      "skills": [
+        "Слова",
+        "Читать"
+      ],
+      "description": "English — сообщество Reddit; темы публикаций: разные повседневные темы. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Соцсети",
+        "Reddit"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-2",
+          "order": 2,
+          "anchor": "english"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-a6554fe07a1c",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-5"
+    },
+    {
+      "name": "English Reference",
+      "url": "https://x.com/RefEnglish",
+      "category": "Соцсети",
+      "kind": "X / Twitter",
+      "skills": [
+        "Слова",
+        "Читать"
+      ],
+      "description": "English Reference — страница X / Twitter; темы публикаций: лексика и игры и викторины. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Соцсети",
+        "X / Twitter"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-3",
+          "order": 0,
+          "anchor": "english-reference"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-b019a682c056",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-5"
+    },
+    {
+      "name": "englishingeneral",
+      "url": "https://www.instagram.com/englishingeneral/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Слова",
+        "Читать"
+      ],
+      "description": "englishingeneral — страница Instagram; темы публикаций: повседневная речь. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Соцсети",
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 1,
+          "anchor": "englishingeneral"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-6316a99fd802",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-5"
+    },
+    {
+      "name": "EnglishLearning",
+      "url": "https://www.reddit.com/r/EnglishLearning/",
+      "category": "Соцсети",
+      "kind": "Reddit",
+      "skills": [
+        "Слова",
+        "Читать"
+      ],
+      "description": "EnglishLearning — сообщество Reddit; темы публикаций: разные повседневные темы. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Соцсети",
+        "Reddit"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-2",
+          "order": 3,
+          "anchor": "englishlearning"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-8fc84f97bb42",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-5"
+    },
+    {
+      "name": "englishwithlucy",
+      "url": "https://www.instagram.com/englishwithlucy/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Слова",
+        "Читать"
+      ],
+      "description": "englishwithlucy — страница Instagram; темы публикаций: произношение и интонация. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Соцсети",
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 2,
+          "anchor": "englishwithlucy"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-f924ffce881b",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-5"
+    },
+    {
+      "name": "Etymology",
+      "url": "https://www.reddit.com/r/etymology/",
+      "category": "Соцсети",
+      "kind": "Reddit",
+      "skills": [
+        "Слова",
+        "Читать"
+      ],
+      "description": "Etymology — сообщество Reddit; темы публикаций: лексика. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Соцсети",
+        "Reddit"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-2",
+          "order": 4,
+          "anchor": "etymology"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-521ac9af1d42",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-5"
+    },
+    {
+      "name": "ewa.english",
+      "url": "https://www.instagram.com/ewa.english/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Слова",
+        "Читать"
+      ],
+      "description": "ewa.english — страница Instagram; темы публикаций: культура и общество и кино и сериалы. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Соцсети",
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 3,
+          "anchor": "ewaenglish"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-d1ffba8efe39",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-5"
+    },
+    {
+      "name": "ielts_advantage",
+      "url": "https://www.instagram.com/ielts_advantage/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Слова",
+        "Читать"
+      ],
+      "description": "ielts_advantage — страница Instagram; темы публикаций: IELTS. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Соцсети",
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 4,
+          "anchor": "ielts_advantage"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-4be00cf9b633",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-5"
+    },
+    {
+      "name": "learningenglishwithoxford",
+      "url": "https://www.instagram.com/learningenglishwithoxford/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Слова",
+        "Читать"
+      ],
+      "description": "learningenglishwithoxford — страница Instagram; темы публикаций: произношение и интонация, грамматика и лексика. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Соцсети",
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 5,
+          "anchor": "learningenglishwithoxford"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-f44d20123a11",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-5"
+    },
+    {
+      "name": "learnwithlondoner",
+      "url": "https://www.instagram.com/learnwithlondoner/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Слова",
+        "Читать"
+      ],
+      "description": "learnwithlondoner — страница Instagram; темы публикаций: произношение и интонация, повседневная речь и лексика. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Соцсети",
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 6,
+          "anchor": "learnwithlondoner"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-4e64671d8912",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-5"
+    },
+    {
+      "name": "Nature Is Fucking Lit",
+      "url": "https://www.reddit.com/r/NatureIsFuckingLit/",
+      "category": "Соцсети",
+      "kind": "Reddit",
+      "skills": [
+        "Слова",
+        "Читать"
+      ],
+      "description": "Nature Is Fucking Lit — сообщество Reddit; темы публикаций: природа. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Соцсети",
+        "Reddit"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-2",
+          "order": 5,
+          "anchor": "nature-is-fucking-lit"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-8c1443f1ccd1",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-5"
+    },
+    {
+      "name": "Next Fucking Level",
+      "url": "https://www.reddit.com/r/nextfuckinglevel/",
+      "category": "Соцсети",
+      "kind": "Reddit",
+      "skills": [
+        "Слова",
+        "Читать"
+      ],
+      "description": "Next Fucking Level — сообщество Reddit; темы публикаций: разные повседневные темы. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Соцсети",
+        "Reddit"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-2",
+          "order": 6,
+          "anchor": "next-fucking-level"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-a4a2f51c9178",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-5"
+    },
+    {
+      "name": "theenglishcoach",
+      "url": "https://www.instagram.com/theenglishcoach/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Слова",
+        "Читать"
+      ],
+      "description": "theenglishcoach — страница Instagram; темы публикаций: произношение и интонация. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Соцсети",
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 7,
+          "anchor": "theenglishcoach"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-c88f06125201",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-5"
+    },
+    {
+      "name": "Today I Learned",
+      "url": "https://www.reddit.com/r/todayilearned/",
+      "category": "Соцсети",
+      "kind": "Reddit",
+      "skills": [
+        "Слова",
+        "Читать"
+      ],
+      "description": "Today I Learned — сообщество Reddit; темы публикаций: наука и история. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Соцсети",
+        "Reddit"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-2",
+          "order": 7,
+          "anchor": "today-i-learned"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-537ddf4abe25",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-5"
+    },
+    {
+      "name": "acquirenglish",
+      "url": "https://www.instagram.com/acquirenglish/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "acquirenglish — страница Instagram; темы публикаций: повседневная речь и лексика. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 8,
+          "anchor": "acquirenglish"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-8dc104935e27",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "aluxnating",
+      "url": "https://www.instagram.com/aluxnating/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "aluxnating — страница Instagram; темы публикаций: произношение и интонация, повседневная речь и лексика. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 9,
+          "anchor": "aluxnating"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-eed8a5bd8b7a",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "beespeakerapp",
+      "url": "https://www.instagram.com/beespeakerapp/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "beespeakerapp — страница Instagram; темы публикаций: произношение и интонация и лексика. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 10,
+          "anchor": "beespeakerapp"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-4857cface66c",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "cambridgeenglish.ellen",
+      "url": "https://www.instagram.com/cambridgeenglish.ellen/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "cambridgeenglish.ellen — страница Instagram; темы публикаций: произношение и интонация. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 11,
+          "anchor": "cambridgeenglishellen"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-768bf078c5fe",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "chokenglish",
+      "url": "https://www.instagram.com/chokenglish/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "chokenglish — страница Instagram; темы публикаций: повседневная речь и культура и общество. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 12,
+          "anchor": "chokenglish"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-c739d9b6f798",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "english__evolve2",
+      "url": "https://www.instagram.com/english__evolve2/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "english__evolve2 — страница Instagram; темы публикаций: лексика. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 13,
+          "anchor": "english__evolve2"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-ca31d29630a3",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "english_withelo",
+      "url": "https://www.instagram.com/english_withelo/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "english_withelo — страница Instagram; темы публикаций: повседневная речь. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 14,
+          "anchor": "english_withelo"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-b975a1752c69",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "english.class.in",
+      "url": "https://www.instagram.com/english.class.in/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "english.class.in — страница Instagram; темы публикаций: грамматика и лексика. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 15,
+          "anchor": "englishclassin"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-a9f03f150499",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "english.grammar.vocab",
+      "url": "https://www.instagram.com/english.grammar.vocab/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "english.grammar.vocab — страница Instagram; темы публикаций: грамматика и лексика. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 16,
+          "anchor": "englishgrammarvocab"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-101fe3372d45",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "english.speaking.tips",
+      "url": "https://www.instagram.com/english.speaking.tips/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "english.speaking.tips — страница Instagram; темы публикаций: произношение и интонация. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 17,
+          "anchor": "englishspeakingtips"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-4d748e97361e",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "englishagenda",
+      "url": "https://www.instagram.com/englishagenda/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "englishagenda — страница Instagram; темы публикаций: повседневная речь, грамматика и лексика. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 18,
+          "anchor": "englishagenda"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-9259fa757b57",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "fixolang",
+      "url": "https://www.instagram.com/fixolang/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "fixolang — страница Instagram; темы публикаций: лексика и кино и сериалы. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 19,
+          "anchor": "fixolang"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-48380c711420",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "fluently.eve",
+      "url": "https://www.instagram.com/fluently.eve/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "fluently.eve — страница Instagram; темы публикаций: произношение и интонация, повседневная речь и лексика. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 20,
+          "anchor": "fluentlyeve"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-f22bf51de8cd",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "gortis.english",
+      "url": "https://www.instagram.com/gortis.english/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "gortis.english — страница Instagram; темы публикаций: лексика. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 21,
+          "anchor": "gortisenglish"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-412b63f1a236",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "grammarenglishtips",
+      "url": "https://www.instagram.com/grammarenglishtips/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "grammarenglishtips — страница Instagram; темы публикаций: грамматика и лексика. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 22,
+          "anchor": "grammarenglishtips"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-f230a8e69911",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "hanabronwen",
+      "url": "https://www.instagram.com/hanabronwen/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "hanabronwen — страница Instagram; темы публикаций: произношение и интонация, повседневная речь и лексика. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 23,
+          "anchor": "hanabronwen"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-b481cec5efc1",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "ielts_seekers",
+      "url": "https://www.instagram.com/ielts_seekers/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "ielts_seekers — страница Instagram; темы публикаций: IELTS. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 24,
+          "anchor": "ielts_seekers"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-e076b4575715",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "ielts_winnersanshu",
+      "url": "https://www.instagram.com/ielts_winnersanshu/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "ielts_winnersanshu — страница Instagram; темы публикаций: лексика и IELTS. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 25,
+          "anchor": "ielts_winnersanshu"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-bebf7ca75a7e",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "ieltsonlineclasses_",
+      "url": "https://www.instagram.com/ieltsonlineclasses_/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "ieltsonlineclasses_ — страница Instagram; темы публикаций: IELTS. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 26,
+          "anchor": "ieltsonlineclasses_"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-2e982c6f6024",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "language.bridge.academy",
+      "url": "https://www.instagram.com/language.bridge.academy/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "language.bridge.academy — страница Instagram; темы публикаций: лексика и наука. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 27,
+          "anchor": "languagebridgeacademy"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-9ec1c35c5147",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "lola_speak",
+      "url": "https://www.instagram.com/lola_speak/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "lola_speak — страница Instagram; темы публикаций: произношение и интонация. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 28,
+          "anchor": "lola_speak"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-7493ae5cdbd7",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "mashable",
+      "url": "https://www.instagram.com/mashable/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "mashable — страница Instagram; темы публикаций: технологии и культура и общество. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 29,
+          "anchor": "mashable"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-5f5b29fff672",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "miss_englishteacher_",
+      "url": "https://www.instagram.com/miss_englishteacher_/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "miss_englishteacher_ — страница Instagram; темы публикаций: повседневная речь и грамматика. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 30,
+          "anchor": "miss_englishteacher_"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-3d9f36e58f8d",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "mondlylanguages",
+      "url": "https://www.instagram.com/mondlylanguages/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "mondlylanguages — страница Instagram; темы публикаций: разные повседневные темы. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 31,
+          "anchor": "mondlylanguages"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-f86bcfb78ed5",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "natgeo",
+      "url": "https://www.instagram.com/natgeo/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "natgeo — страница Instagram; темы публикаций: наука, история и культура и общество. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 32,
+          "anchor": "natgeo"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-94869ecd617a",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "newscientist",
+      "url": "https://www.instagram.com/newscientist/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "newscientist — страница Instagram; темы публикаций: наука, космос и технологии. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 33,
+          "anchor": "newscientist"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-6f50c44d7b0b",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "oryvicteng",
+      "url": "https://www.instagram.com/oryvicteng/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "oryvicteng — страница Instagram; темы публикаций: произношение и интонация. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 34,
+          "anchor": "oryvicteng"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-6d99f0756d54",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "promova",
+      "url": "https://www.instagram.com/promova/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "promova — страница Instagram; темы публикаций: грамматика. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 35,
+          "anchor": "promova"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-f9da3da4638b",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "rapidenglish4u",
+      "url": "https://www.instagram.com/rapidenglish4u/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "rapidenglish4u — страница Instagram; темы публикаций: произношение и интонация и лексика. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 36,
+          "anchor": "rapidenglish4u"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-f300e2e197d3",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "roastmyenglish",
+      "url": "https://www.instagram.com/roastmyenglish/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "roastmyenglish — страница Instagram; темы публикаций: произношение и интонация и грамматика. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 37,
+          "anchor": "roastmyenglish"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-8c917330a856",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "sciencealert",
+      "url": "https://www.instagram.com/sciencealert/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "sciencealert — страница Instagram; темы публикаций: наука. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 38,
+          "anchor": "sciencealert"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-763ffe819175",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "scientific_american",
+      "url": "https://www.instagram.com/scientific_american/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "scientific_american — страница Instagram; темы публикаций: наука и академический английский. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 39,
+          "anchor": "scientific_american"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-dc85f319b0dc",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "teachingenglishwithoxford",
+      "url": "https://www.instagram.com/teachingenglishwithoxford/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "teachingenglishwithoxford — страница Instagram; темы публикаций: разные повседневные темы. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 40,
+          "anchor": "teachingenglishwithoxford"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-7cdd6fbd6378",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "the.englishmentor",
+      "url": "https://www.instagram.com/the.englishmentor/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "the.englishmentor — страница Instagram; темы публикаций: произношение и интонация. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 41,
+          "anchor": "theenglishmentor"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-095aea354967",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "thedoorsofenglish",
+      "url": "https://www.instagram.com/thedoorsofenglish/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "thedoorsofenglish — страница Instagram; темы публикаций: повседневная речь и лексика. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 42,
+          "anchor": "thedoorsofenglish"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-7c961f18d768",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "theeconomist",
+      "url": "https://www.instagram.com/theeconomist/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "theeconomist — страница Instagram; темы публикаций: работа и бизнес, экономика и финансы и новости. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 43,
+          "anchor": "theeconomist"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-ce3c96139f9e",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "vocabulary.daily.words",
+      "url": "https://www.instagram.com/vocabulary.daily.words/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "vocabulary.daily.words — страница Instagram; темы публикаций: повседневная речь и лексика. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 44,
+          "anchor": "vocabularydailywords"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-301b0f87906c",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "zafarmirzoquote",
+      "url": "https://www.instagram.com/zafarmirzoquote/",
+      "category": "Соцсети",
+      "kind": "Instagram",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "zafarmirzoquote — страница Instagram; темы публикаций: книги и литература. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Instagram"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-1",
+          "order": 45,
+          "anchor": "zafarmirzoquote"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-069004e89364",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "Every Man Should Know",
+      "url": "https://www.reddit.com/r/everymanshouldknow/",
+      "category": "Соцсети",
+      "kind": "Reddit",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "Every Man Should Know — сообщество Reddit; темы публикаций: разные повседневные темы. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Reddit"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-2",
+          "order": 8,
+          "anchor": "every-man-should-know"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-ce670b8527dc",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "GetMotivated",
+      "url": "https://www.reddit.com/r/GetMotivated/",
+      "category": "Соцсети",
+      "kind": "Reddit",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "GetMotivated — сообщество Reddit; темы публикаций: работа и личные привычки. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Reddit"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-2",
+          "order": 9,
+          "anchor": "getmotivated"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-9628c1ea7450",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "HowTo",
+      "url": "https://www.reddit.com/r/howto/",
+      "category": "Соцсети",
+      "kind": "Reddit",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "HowTo — сообщество Reddit; темы публикаций: разные повседневные темы. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Reddit"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-2",
+          "order": 10,
+          "anchor": "howto"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-4ad014e0fc74",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "I Want To Learn",
+      "url": "https://www.reddit.com/r/IWantToLearn/",
+      "category": "Соцсети",
+      "kind": "Reddit",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "I Want To Learn — сообщество Reddit; темы публикаций: разные повседневные темы. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Reddit"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-2",
+          "order": 11,
+          "anchor": "i-want-to-learn"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-4e170e39f56d",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "Learn Useless Talents",
+      "url": "https://www.reddit.com/r/LearnUselessTalents/",
+      "category": "Соцсети",
+      "kind": "Reddit",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "Learn Useless Talents — сообщество Reddit; темы публикаций: лексика. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Reddit"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-2",
+          "order": 12,
+          "anchor": "learn-useless-talents"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-fddd3d944360",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "MovieDetails",
+      "url": "https://www.reddit.com/r/MovieDetails/",
+      "category": "Соцсети",
+      "kind": "Reddit",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "MovieDetails — сообщество Reddit; темы публикаций: кино и сериалы. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Reddit"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-2",
+          "order": 13,
+          "anchor": "moviedetails"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-709f1ce3ce15",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "ThatsInsane",
+      "url": "https://www.reddit.com/r/ThatsInsane/",
+      "category": "Соцсети",
+      "kind": "Reddit",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "ThatsInsane — сообщество Reddit; темы публикаций: разные повседневные темы. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Reddit"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-2",
+          "order": 14,
+          "anchor": "thatsinsane"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-fa4e886de6d5",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "What Could Go Right?",
+      "url": "https://www.reddit.com/r/whatcouldgoright/",
+      "category": "Соцсети",
+      "kind": "Reddit",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "What Could Go Right? — сообщество Reddit; темы публикаций: разные повседневные темы. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "Reddit"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-2",
+          "order": 15,
+          "anchor": "what-could-go-right"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-d50054ff91df",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "Alex & Books",
+      "url": "https://x.com/AlexAndBooks_",
+      "category": "Соцсети",
+      "kind": "X / Twitter",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "Alex & Books — страница X / Twitter; темы публикаций: книги и литература и работа и личные привычки. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "X / Twitter"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-3",
+          "order": 1,
+          "anchor": "alex-books"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-eba5e43738f3",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "Ali Neshatnikoo",
+      "url": "https://x.com/alineshatnikoo",
+      "category": "Соцсети",
+      "kind": "X / Twitter",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "Ali Neshatnikoo — страница X / Twitter; темы публикаций: произношение и интонация и повседневная речь. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "X / Twitter"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-3",
+          "order": 2,
+          "anchor": "ali-neshatnikoo"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-1dcad8a3679d",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "BBC World",
+      "url": "https://x.com/BBCWorld",
+      "category": "Соцсети",
+      "kind": "X / Twitter",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "BBC World — страница X / Twitter; темы публикаций: новости. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "X / Twitter"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-3",
+          "order": 3,
+          "anchor": "bbc-world"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-5d5324a0ec86",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "Best Grammar Tip",
+      "url": "https://x.com/bestgrammartip",
+      "category": "Соцсети",
+      "kind": "X / Twitter",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "Best Grammar Tip — страница X / Twitter; темы публикаций: грамматика. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "X / Twitter"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-3",
+          "order": 4,
+          "anchor": "best-grammar-tip"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-f2c657e0e5be",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "CNN",
+      "url": "https://x.com/CNN",
+      "category": "Соцсети",
+      "kind": "X / Twitter",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "CNN — страница X / Twitter; темы публикаций: новости и работа и личные привычки. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "X / Twitter"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-3",
+          "order": 5,
+          "anchor": "cnn"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-39b69f1a1a0e",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "CNN Breaking News",
+      "url": "https://x.com/cnnbrk",
+      "category": "Соцсети",
+      "kind": "X / Twitter",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "CNN Breaking News — страница X / Twitter; темы публикаций: новости. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "X / Twitter"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-3",
+          "order": 6,
+          "anchor": "cnn-breaking-news"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-4580c61bc03b",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "Dickie Bush",
+      "url": "https://x.com/dickiebush",
+      "category": "Соцсети",
+      "kind": "X / Twitter",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "Dickie Bush — страница X / Twitter; темы публикаций: работа и личные привычки. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "X / Twitter"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-3",
+          "order": 7,
+          "anchor": "dickie-bush"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-01129d28cb4a",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "Ella Language",
+      "url": "https://x.com/EllaLanguage",
+      "category": "Соцсети",
+      "kind": "X / Twitter",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "Ella Language — страница X / Twitter; темы публикаций: произношение и интонация, повседневная речь и лексика. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "X / Twitter"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-3",
+          "order": 8,
+          "anchor": "ella-language"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-d8c31677307c",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "English Clubber",
+      "url": "https://x.com/englishclubber",
+      "category": "Соцсети",
+      "kind": "X / Twitter",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "English Clubber — страница X / Twitter; темы публикаций: повседневная речь и лексика. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "X / Twitter"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-3",
+          "order": 9,
+          "anchor": "english-clubber"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-e7244821e00c",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "English grammar",
+      "url": "https://x.com/knowiiiedge",
+      "category": "Соцсети",
+      "kind": "X / Twitter",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "English grammar — страница X / Twitter; темы публикаций: разные повседневные темы. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "X / Twitter"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-3",
+          "order": 10,
+          "anchor": "english-grammar"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-978f1bd1d11f",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "English Grammar",
+      "url": "https://x.com/Englishgramma0",
+      "category": "Соцсети",
+      "kind": "X / Twitter",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "English Grammar — страница X / Twitter; темы публикаций: грамматика. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "X / Twitter"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-3",
+          "order": 11,
+          "anchor": "english-grammar-resource-2"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-fc75ba1ebb20",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "English Speaking Tips",
+      "url": "https://x.com/englishspeatips",
+      "category": "Соцсети",
+      "kind": "X / Twitter",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "English Speaking Tips — страница X / Twitter; темы публикаций: произношение и интонация и повседневная речь. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "X / Twitter"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-3",
+          "order": 12,
+          "anchor": "english-speaking-tips"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-068b6b055ce9",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "English Tips",
+      "url": "https://x.com/englishtiips",
+      "category": "Соцсети",
+      "kind": "X / Twitter",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "English Tips — страница X / Twitter; темы публикаций: разные повседневные темы. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "X / Twitter"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-3",
+          "order": 13,
+          "anchor": "english-tips"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-e40d4bff7026",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "EnglishX",
+      "url": "https://x.com/engIishx",
+      "category": "Соцсети",
+      "kind": "X / Twitter",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "EnglishX — страница X / Twitter; темы публикаций: повседневная речь. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "X / Twitter"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-3",
+          "order": 14,
+          "anchor": "englishx"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-0933260991cb",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "Firenox English",
+      "url": "https://x.com/FirenoxEnglish",
+      "category": "Соцсети",
+      "kind": "X / Twitter",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "Firenox English — страница X / Twitter; темы публикаций: грамматика и лексика. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "X / Twitter"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-3",
+          "order": 15,
+          "anchor": "firenox-english"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-3a13ef6a2c3c",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "Grammar Club",
+      "url": "https://x.com/grammar_club",
+      "category": "Соцсети",
+      "kind": "X / Twitter",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "Grammar Club — страница X / Twitter; темы публикаций: грамматика. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "X / Twitter"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-3",
+          "order": 16,
+          "anchor": "grammar-club"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-dbfc9c588c42",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "Grammar Updates",
+      "url": "https://x.com/GrammarUpdates",
+      "category": "Соцсети",
+      "kind": "X / Twitter",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "Grammar Updates — страница X / Twitter; темы публикаций: грамматика. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "X / Twitter"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-3",
+          "order": 17,
+          "anchor": "grammar-updates"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-df47753c11bf",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "iEnglish Grammar",
+      "url": "https://x.com/iEnglishGrammar",
+      "category": "Соцсети",
+      "kind": "X / Twitter",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "iEnglish Grammar — страница X / Twitter; темы публикаций: грамматика. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "X / Twitter"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-3",
+          "order": 18,
+          "anchor": "ienglish-grammar"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-66ae8f284716",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "Knowledge Hub",
+      "url": "https://x.com/KnowIedgehubb",
+      "category": "Соцсети",
+      "kind": "X / Twitter",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "Knowledge Hub — страница X / Twitter; темы публикаций: лексика. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "X / Twitter"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-3",
+          "order": 19,
+          "anchor": "knowledge-hub"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-517053f3d2eb",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "Learn English Quickly",
+      "url": "https://x.com/learnengquickly",
+      "category": "Соцсети",
+      "kind": "X / Twitter",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "Learn English Quickly — страница X / Twitter; темы публикаций: лексика. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "X / Twitter"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-3",
+          "order": 20,
+          "anchor": "learn-english-quickly"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-ebb57a289953",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "Library Mindset",
+      "url": "https://x.com/librarymindset",
+      "category": "Соцсети",
+      "kind": "X / Twitter",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "Library Mindset — страница X / Twitter; темы публикаций: книги и литература. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "X / Twitter"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-3",
+          "order": 21,
+          "anchor": "library-mindset"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-6094b8ae9bd3",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "NASA",
+      "url": "https://x.com/NASA",
+      "category": "Соцсети",
+      "kind": "X / Twitter",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "NASA — страница X / Twitter; темы публикаций: наука, космос и технологии. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "X / Twitter"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-3",
+          "order": 22,
+          "anchor": "nasa"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-0543551d51b0",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "Power Thesaurus",
+      "url": "https://x.com/PowerThesaurus",
+      "category": "Соцсети",
+      "kind": "X / Twitter",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "Power Thesaurus — страница X / Twitter; темы публикаций: лексика. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "X / Twitter"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-3",
+          "order": 23,
+          "anchor": "power-thesaurus"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-cd461b93082e",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "Rapid English",
+      "url": "https://x.com/RapidEnglish4u",
+      "category": "Соцсети",
+      "kind": "X / Twitter",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "Rapid English — страница X / Twitter; темы публикаций: разные повседневные темы. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "X / Twitter"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-3",
+          "order": 24,
+          "anchor": "rapid-english"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-042a36a2bfea",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "Ted IELTS",
+      "url": "https://x.com/tedielts",
+      "category": "Соцсети",
+      "kind": "X / Twitter",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "Ted IELTS — страница X / Twitter; темы публикаций: IELTS. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "X / Twitter"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-3",
+          "order": 25,
+          "anchor": "ted-ielts"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-bb779f2a5563",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "The Academy",
+      "url": "https://x.com/TheAcademy",
+      "category": "Соцсети",
+      "kind": "X / Twitter",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "The Academy — страница X / Twitter; темы публикаций: культура и общество и кино и сериалы. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "X / Twitter"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-3",
+          "order": 26,
+          "anchor": "the-academy"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-01840205417a",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "The English Guide",
+      "url": "https://x.com/TheEngIishGuide",
+      "category": "Соцсети",
+      "kind": "X / Twitter",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "The English Guide — страница X / Twitter; темы публикаций: произношение и интонация и повседневная речь. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "X / Twitter"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-3",
+          "order": 27,
+          "anchor": "the-english-guide"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-bd15ace06cef",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "The New York Times",
+      "url": "https://x.com/nytimes",
+      "category": "Соцсети",
+      "kind": "X / Twitter",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "The New York Times — страница X / Twitter; темы публикаций: культура и общество и новости. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "X / Twitter"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-3",
+          "order": 28,
+          "anchor": "the-new-york-times"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-7faff02e0bc0",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    },
+    {
+      "name": "TIME",
+      "url": "https://x.com/TIME",
+      "category": "Соцсети",
+      "kind": "X / Twitter",
+      "skills": [
+        "Читать",
+        "Слова"
+      ],
+      "description": "TIME — страница X / Twitter; темы публикаций: культура и общество и новости. Возьмите одну запись для короткого чтения или слушания, затем перескажите её и сохраните полезное выражение.",
+      "start": "Выберите одну запись, прочитайте или послушайте её. Сформулируйте главную мысль своими словами и сохраните одно выражение с примером.",
+      "limit": "Публикации и комментарии создают авторы и участники платформы. Сложность и качество объяснений различаются; доступ может требовать аккаунта и зависит от региона.",
+      "sections": [
+        "social-media"
+      ],
+      "subcategories": [
+        "X / Twitter"
+      ],
+      "placements": [
+        {
+          "page": "social-media",
+          "group": "social-media-list-3",
+          "order": 29,
+          "anchor": "time"
+        }
+      ],
+      "aliases": [],
+      "id": "tool-dab5443334eb",
+      "dictionaryGroup": "",
+      "catalogGroup": "all-tools-list-1"
+    }
+  ]
+}

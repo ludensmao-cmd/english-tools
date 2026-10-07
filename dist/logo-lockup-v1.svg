@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 86" fill="none" role="img" aria-labelledby="title">
+  <title id="title">english.tools</title>
+  <defs>
+    <linearGradient id="speech" x1="14" y1="18" x2="260" y2="70" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E887F7"/>
+      <stop offset=".53" stop-color="#BD68EA"/>
+      <stop offset="1" stop-color="#805DE1"/>
+    </linearGradient>
+  </defs>
+  <path d="M207 13H70C37 13 14 29 14 49v6c0 9 7 15 20 17v9l28-10h139c31 0 53-11 62-34" stroke="url(#speech)" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m226 16 5-12m11 20 10-9m0 18 12-3" stroke="url(#speech)" stroke-width="6.5" stroke-linecap="round"/>
+  <text x="38" y="56" fill="#F8F4FB" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="29" font-weight="800" letter-spacing="-1.2">english<tspan fill="#D7A5F5">.tools</tspan></text>
+</svg>

@@ -1,0 +1,15 @@
+{
+  "name": "english-tools",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Русскоязычный каталог инструментов для английского, блог и конструктор урока с ИИ",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "python3 -m http.server 4173 --bind 127.0.0.1 --directory dist",
+    "preview": "python3 scripts/start_preview.py",
+    "check": "python3 scripts/check_site_sources.py && node scripts/check_public_catalog.cjs",
+    "build": "python3 scripts/build_catalog.py && python3 scripts/assemble_englinks_pages.py --catalog-only"
+  }
+}
