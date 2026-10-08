@@ -1,0 +1,18 @@
+import { test } from 'node:test';
+import assert from 'node:assert/strict';
+import { join } from 'node:path';
+import { readFile, writeFile, unlink, mkdir } from 'node:fs/promises';
+import { Readable } from 'node:stream';
+import { randomUUID } from 'node:crypto';
+import { serviceFixture, tempDataDir, implementation } from './helpers.mjs';
+import { createAttachments } from '../../server/classroom/attachments.mjs';
+import { loadConfig } from '../../server/classroom/config.mjs';
+import { openStore } from '../../server/classroom/database.mjs';
+import { acquireDataLock } from '../../server/classroom/lock.mjs';
+async function fixture(t) { const backup = await implementation('../../server/classroom/backup.mjs'); const f = await serviceFixture(t); const parent = tempDataDir(t); const files = createAttachments(f.store, loadConfig({ CLASSROOM_DATA_DIR: f.dataDir })); const bytes = Buffer.from('Ответ ученика с документом'); const file = await files.receive(f.student, { name: 'мой ответ.doc', stream: Readable.from([bytes]) }); const a = f.service.assignHomework(f.teacher, f.lesson.id, { title: 'Задание', description: 'Приложите свой ответ' }, randomUUID()); f.service.submitAnswer(f.student, a.id, { text: '', attachmentIds: [file.id] }, randomUUID()); f.store.close(); return { ...f, ...backup, parent, bytes, file, destination: join(parent, 'backup'), restored: join(parent, 'restored') }; }
+test('backup_restores_all_linked_files', async t => { const f = await fixture(t); await f.createBackup({ dataDir: f.dataDir, destination: f.destination }); await f.restoreBackup({ source: f.destination, destination: f.restored }); assert.deepEqual(await readFile(join(f.restored, 'uploads', f.file.id)), f.bytes); const store = openStore(f.restored); t.after(() => store.close()); assert.equal(store.db.prepare('SELECT COUNT(*) n FROM submissions').get().n, 1); assert.equal(store.db.prepare('SELECT COUNT(*) n FROM sessions').get().n, 0); });
+test('missing_attachment_rejects_backup', async t => { const f = await fixture(t); await unlink(join(f.dataDir, 'uploads', f.file.id)); await assert.rejects(f.createBackup({ dataDir: f.dataDir, destination: f.destination }), /файл|вложен/i); });
+test('bad_hash_rejects_restore', async t => { const f = await fixture(t); await f.createBackup({ dataDir: f.dataDir, destination: f.destination }); await writeFile(join(f.destination, 'uploads', f.file.id), 'corrupted'); await assert.rejects(f.restoreBackup({ source: f.destination, destination: f.restored }), /поврежд|контрольн/i); });
+test('existing_destination_never_overwritten', async t => { const f = await fixture(t); await f.createBackup({ dataDir: f.dataDir, destination: f.destination }); await mkdir(f.restored); await writeFile(join(f.restored, 'keep.txt'), 'keep'); await assert.rejects(f.restoreBackup({ source: f.destination, destination: f.restored }), { code: 'DESTINATION_EXISTS' }); assert.equal(await readFile(join(f.restored, 'keep.txt'), 'utf8'), 'keep'); });
+test('active_server_refuses_backup', async t => { const f = await fixture(t); const release = acquireDataLock(f.dataDir); t.after(release); await assert.rejects(f.createBackup({ dataDir: f.dataDir, destination: f.destination }), /используется|останов/i); });
+test('manifest_path_traversal_rejected', async t => { const f = await fixture(t); const { manifestPath } = await f.createBackup({ dataDir: f.dataDir, destination: f.destination }); const manifest = JSON.parse(await readFile(manifestPath, 'utf8')); manifest.files.push({ path: '../outside', size: 4, sha256: '0'.repeat(64) }); await writeFile(manifestPath, JSON.stringify(manifest)); await assert.rejects(f.restoreBackup({ source: f.destination, destination: f.restored }), /путь|состав/i); });

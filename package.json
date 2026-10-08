@@ -8,6 +8,9 @@
   },
   "scripts": {
     "classroom": "node server/classroom/index.mjs",
+    "classroom:admin": "node scripts/classroom_admin.mjs",
+    "classroom:backup": "node scripts/classroom_backup.mjs",
+    "check:classroom": "node --test --test-concurrency=1 tests/classroom/*.test.mjs",
     "start": "python3 -m http.server 4173 --bind 127.0.0.1 --directory dist",
     "preview": "python3 scripts/start_preview.py",
     "check": "python3 scripts/check_site_sources.py && node scripts/check_public_catalog.cjs",
