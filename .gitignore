@@ -36,3 +36,5 @@ research/englinks/*
 !research/englinks/raw/
 research/englinks/raw/*
 !research/englinks/raw/links_reading.html
+/var/classroom/
+/backups/classroom/
