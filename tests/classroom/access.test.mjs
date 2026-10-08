@@ -1,0 +1,7 @@
+import { test } from 'node:test';
+import assert from 'node:assert/strict';
+import { randomUUID } from 'node:crypto';
+import { serviceFixture, errorStatus } from './helpers.mjs';
+test('other_teacher_cannot_review', async t => { const f = await serviceFixture(t); const other = await f.auth.createUser({ role: 'teacher', name: 'Другой', username: 'other_teacher', password: f.password, mustChangePassword: false }); const a = f.service.assignHomework(f.teacher, f.lesson.id, { title: 'Задание', description: 'Описание задания' }, randomUUID()); const s = f.service.submitAnswer(f.student, a.id, { text: 'Answer' }, randomUUID()); assert.throws(() => f.service.reviewAnswer(other, s.id, { text: 'Отзыв учителя' }, randomUUID()), errorStatus(404)); });
+test('foreign_student_cannot_submit', async t => { const f = await serviceFixture(t); const a = f.service.assignHomework(f.teacher, f.lesson.id, { title: 'Задание', description: 'Описание задания' }, randomUUID()); assert.throws(() => f.service.submitAnswer(f.otherStudent, a.id, { text: 'Answer' }, randomUUID()), errorStatus(404)); assert.throws(() => f.service.createLesson(f.student, { studentId: f.student.id }), errorStatus(403)); });
+test('cross_student_assignment_link_rejected', async t => { const f = await serviceFixture(t); assert.throws(() => f.store.db.prepare('INSERT INTO assignments(id,lesson_id,student_id,teacher_id,title,description) VALUES(?,?,?,?,?,?)').run(randomUUID(), f.lesson.id, f.otherStudent.id, f.teacher.id, 'Задание', 'Описание задания'), /FOREIGN KEY/); });
