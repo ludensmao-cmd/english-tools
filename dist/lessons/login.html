@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ru" class="dark">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex"><meta name="theme-color" content="#141117">
+  <title>Вход в учебный кабинет — English.tools</title>
+  <link rel="icon" href="/favicon-v3.svg"><link rel="stylesheet" href="/home-fonts.css"><link rel="stylesheet" href="./auth.css">
+  <script type="module" src="./login.mjs"></script>
+</head>
+<body>
+  <a class="auth-brand" href="/"><img src="/brand/english-tools-transparent.png" width="1774" height="887" alt="English.tools — на главную"></a>
+  <main class="auth-card">
+    <p class="auth-eyebrow">Учебный кабинет</p><h1 id="auth-title">Рады вас видеть</h1>
+    <p id="auth-description">Войдите с логином и паролем, которые выдал преподаватель</p>
+    <form id="login-form">
+      <label for="username">Логин</label><input id="username" autocomplete="username" required minlength="3" maxlength="64" autocapitalize="none" spellcheck="false">
+      <label for="password">Пароль</label><input id="password" type="password" autocomplete="current-password" required maxlength="256">
+      <button type="submit">Войти</button>
+    </form>
+    <form id="password-form" hidden>
+      <label for="current-password">Временный пароль</label><input id="current-password" type="password" autocomplete="current-password" required>
+      <label for="new-password">Новый пароль</label><input id="new-password" type="password" autocomplete="new-password" required minlength="15" maxlength="256">
+      <label for="confirm-password">Повторите новый пароль</label><input id="confirm-password" type="password" autocomplete="new-password" required minlength="15" maxlength="256">
+      <p class="auth-note">От 15 символов. Можно использовать длинную фразу</p><button type="submit">Сохранить пароль</button>
+    </form>
+    <p id="auth-result" role="status" aria-live="polite"></p>
+    <p class="auth-note">Забыли пароль? Попросите преподавателя выдать новый</p><a class="auth-back" href="/">Вернуться на сайт</a>
+  </main>
+</body></html>

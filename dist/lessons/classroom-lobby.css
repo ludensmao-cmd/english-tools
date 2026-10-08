@@ -257,3 +257,37 @@ html.classroom-resource-open {overflow:hidden;scrollbar-gutter:stable;}
 @media(prefers-reduced-motion:reduce) {.cabinet-page * {animation:none!important;transition:none!important;scroll-behavior:auto!important;}}
 
 @media(max-width:420px) {.cabinet-page .classroom-mode {display:none;} .cabinet-page .english-role-title {line-height:18px;max-width:155px;}}
+/* Server-connected controls preserve the established classroom palette. */
+.cabinet-page [hidden]{display:none!important}
+.cabinet-page .classroom-header{height:88px;position:fixed;inset:0 0 auto;z-index:40;background:#141117;display:flex;align-items:center;gap:24px;padding:0 32px;border-bottom:1px solid #332a3b}
+.cabinet-page .classroom-header img{width:144px;height:72px;object-fit:contain;display:block}
+.cabinet-page .classroom-header #role-label{color:#bfb0c8;margin-left:auto;font-size:14px}
+.cabinet-page .classroom-sidebar{position:fixed;inset:88px auto 0 0;width:256px;padding:32px 20px;background:#17131c;border-right:1px solid #332a3b;overflow:auto;z-index:20;display:flex;flex-direction:column;gap:24px}
+.cabinet-page .classroom-sidebar nav{display:grid;gap:8px}
+.cabinet-page .classroom-sidebar a{display:flex;gap:12px;align-items:center;padding:12px;border-radius:10px;color:#bfb0c8;text-decoration:none}
+.cabinet-page .classroom-sidebar a:hover{background:#2b2234;color:#cf9bff}
+.cabinet-page .classroom-sidebar img{width:21px;height:21px}
+.cabinet-page #sidebar-person{margin-top:auto;overflow-wrap:anywhere;color:#bfb0c8}
+.cabinet-page .classroom-main{margin:88px 0 0 256px;padding:36px 40px 48px;max-width:1400px}
+.cabinet-page .classroom-main select{width:100%;font:inherit;color:#f7f2fa;background:#141117;border:1px solid #705879;border-radius:10px;min-height:44px;padding:10px;margin:8px 0 20px}
+.cabinet-page .classroom-main label{display:block;margin:16px 0 8px;color:#f7f2fa}
+.cabinet-page .classroom-main :is(input,textarea){font-size:16px;caret-color:#cf9bff}
+.cabinet-page .classroom-main :is(.preserve-lines,.form-result){white-space:pre-wrap;overflow-wrap:anywhere}
+.cabinet-page .small-form-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.cabinet-page .form-result{margin-top:12px!important;min-height:24px}
+.cabinet-page .form-result.is-error{color:#ffb6c4}
+.cabinet-page .empty-state{padding:20px 0;color:#bfb0c8}
+.cabinet-page .relogin-panel{padding:20px;border:1px solid #705879;border-radius:12px;margin-bottom:24px}
+.cabinet-page .table-scroll{overflow:auto}
+.cabinet-page .resource-open{display:block;width:100%;text-align:left;padding:18px 0;border:0;border-bottom:1px solid #332a3b;color:#f7f2fa;font:600 15px/1.6 Manrope,system-ui,sans-serif;cursor:pointer;background:transparent}
+.cabinet-page .resource-open:hover{color:#cf9bff}
+.cabinet-page .classroom-main .attachment-control{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.cabinet-page .classroom-main .file-list li{display:flex;gap:12px;align-items:center;flex-wrap:wrap;overflow-wrap:anywhere;min-width:0}
+.cabinet-page .classroom-main .file-list a{overflow-wrap:anywhere;min-width:0}
+.cabinet-page .file-list .preview-image{width:48px;height:48px;object-fit:cover;border-radius:8px}
+.cabinet-page .classroom-main :focus-visible{outline:2px solid #cf9bff;outline-offset:3px}
+.cabinet-page ::selection{background:#6e428f;color:#fff}
+.cabinet-page .classroom-main .student-choice{width:100%;text-align:left;display:block;white-space:normal}
+.cabinet-page .classroom-main .student-choice strong,.cabinet-page .classroom-main .student-choice small{display:block}
+@media(max-width:959px){.cabinet-page .classroom-sidebar{position:static;width:auto;margin-top:88px;padding:12px 20px;border-right:0;border-bottom:1px solid #332a3b}.cabinet-page .classroom-sidebar nav{display:flex;flex-wrap:wrap;gap:4px}.cabinet-page #sidebar-person{display:none}.cabinet-page .classroom-main{margin:0;padding:28px 24px}.cabinet-page .classroom-header{padding:0 24px}.cabinet-page .classroom-header #role-label{max-width:140px;line-height:1.5}}
+@media(max-width:640px){.cabinet-page .classroom-header{gap:12px;padding:0 16px}.cabinet-page .classroom-header img{width:116px}.cabinet-page .classroom-header #role-label{font-size:12px}.cabinet-page .classroom-main{padding:24px 16px}.cabinet-page .classroom-main .small-form-grid{grid-template-columns:1fr}.cabinet-page .classroom-main select{font-size:16px}}
