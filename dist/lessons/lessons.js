@@ -17,13 +17,14 @@ async function verifyIdentity() {
 async function run(form, action) {
   if (inFlight) return;
   inFlight = true;
-  const controls = [...document.querySelectorAll('main button, main input, main textarea, main select')];
-  const before = controls.map(node => [node, node.disabled]); controls.forEach(node => { node.disabled = true; });
+  // Block interaction without overwriting availability decided by the render.
+  const main = document.querySelector('main'); const wasInert = main.inert;
+  main.inert = true; main.setAttribute('aria-busy', 'true');
   const status = form?.querySelector('.form-result') || $('cabinet-storage-status');
   result(status, 'Сохраняем…');
   try { await verifyIdentity(); const message = await action(); result(status, message || 'Сохранено'); }
   catch (error) { handleError(error, status); }
-  finally { inFlight = false; before.forEach(([node, disabled]) => { node.disabled = disabled; }); }
+  finally { inFlight = false; main.inert = wasInert; main.removeAttribute('aria-busy'); }
 }
 function options(node, rows, label, wanted = node.value) {
   node.replaceChildren(...rows.map(row => { const option = el('option', label(row)); option.value = row.id; return option; }));
@@ -123,7 +124,11 @@ function renderReview() {
   $('review-text').textContent = assignment.submission.text || 'Ответ приложен файлом'; filesList($('review-files'), assignment.submission.attachments); $('feedback-text').value = reviewDrafts.get(selectedReview) || '';
 }
 let lastCompleteId = '';
-function saveCompleteDraft() { if (lastCompleteId) completeDrafts.set(lastCompleteId, { summary: $('lesson-summary').value, words: $('lesson-words').value, materials: $('lesson-materials').value, files: [...$('lesson-material-files').files] }); }
+function saveCompleteDraft() {
+  if (!lastCompleteId) return;
+  const files = completeDrafts.get(lastCompleteId)?.files ?? [...$('lesson-material-files').files];
+  completeDrafts.set(lastCompleteId, { summary: $('lesson-summary').value, words: $('lesson-words').value, materials: $('lesson-materials').value, files });
+}
 function loadCompleteDraft() {
   const id = $('complete-lesson').value; lastCompleteId = id;
   const lesson = data.lessons.find(l => l.id === id); const draft = completeDrafts.get(id);
@@ -132,6 +137,7 @@ function loadCompleteDraft() {
   $('lesson-materials').value = draft?.materials ?? lesson?.materials.filter(m => m.url).map(m => [m.title, m.url].join(' | ')).join('\n') ?? '';
   // File inputs cannot be repopulated; retained File objects live in the draft.
   $('lesson-material-files').value = '';
+  selectedFiles($('lesson-selected-files'), draft?.files || []);
 }
 function render() { if (user.role === 'student') renderStudent(); else renderTeacher(); }
 function credentials(username, password) { $('credentials-text').textContent = 'Логин: ' + username + '\nВременный пароль: ' + password; $('credentials-dialog').showModal(); }
@@ -163,7 +169,16 @@ function wireTeacher() {
   $('teacher-task-form').addEventListener('input', saveTaskDraft); $('teacher-task-form').addEventListener('change', saveTaskDraft);
   $('teacher-task-form').addEventListener('submit', event => { event.preventDefault(); saveTaskDraft(); const student = selectedStudent; const draft = taskDraft(); run(event.currentTarget, async () => { if (!draft.lesson) throw Error('Сначала назначьте занятие'); const input = { title: draft.title, description: draft.description, dueAt: draft.due ? localDate(draft.due) : null, attachmentIds: await uploadFiles(draft.files) }; await api.mutate('/api/lessons/' + draft.lesson + '/assignments', input); taskDrafts.delete(student); await refreshAfterSave(); return 'Задание отправлено ученику'; }); });
   $('complete-lesson').addEventListener('change', () => { saveCompleteDraft(); loadCompleteDraft(); });
-  $('complete-form').addEventListener('input', saveCompleteDraft); $('lesson-material-files').addEventListener('change', saveCompleteDraft);
+  $('complete-form').addEventListener('input', saveCompleteDraft);
+  $('lesson-material-files').addEventListener('change', () => {
+    if (!lastCompleteId) return;
+    saveCompleteDraft(); const draft = completeDrafts.get(lastCompleteId);
+    draft.files = [...$('lesson-material-files').files]; selectedFiles($('lesson-selected-files'), draft.files);
+  });
+  $('lesson-clear-files').addEventListener('click', () => {
+    if (lastCompleteId) { saveCompleteDraft(); completeDrafts.get(lastCompleteId).files = []; }
+    $('lesson-material-files').value = ''; selectedFiles($('lesson-selected-files'), []);
+  });
   $('complete-form').addEventListener('submit', event => { event.preventDefault(); saveCompleteDraft(); const id = $('complete-lesson').value; const draft = completeDrafts.get(id); run(event.currentTarget, async () => { if (!id) throw Error('Сначала назначьте занятие'); const vocabulary = draft.words.split('\n').filter(line => line.trim()).map(line => { const [word, meaning, ...example] = line.split('|').map(v => v.trim()); if (!word || !meaning) throw Error('Словарь: укажите слово и перевод в каждой строке'); return { word, meaning, example: example.join(' | ') }; }); const materials = draft.materials.split('\n').filter(line => line.trim()).map(line => { const [title, url] = line.split('|').map(v => v.trim()); if (!title || !safeLink(url)) throw Error('Материалы: укажите название и ссылку http или https'); return { title, url }; }); const attachmentIds = await uploadFiles(draft.files); const lesson = data.lessons.find(l => l.id === id); materials.push(...lesson.materials.filter(m => m.attachmentId), ...attachmentIds.map((attachmentId, i) => ({ title: draft.files[i].name, attachmentId }))); await api.mutate('/api/lessons/' + id + '/complete', { summary: draft.summary, vocabulary, materials }, { method: 'PATCH' }); completeDrafts.delete(id); await refreshAfterSave(); return 'Итоги доступны ученику в повторении'; }); });
   $('review-select').addEventListener('change', () => { selectedReview = $('review-select').value; renderReview(); });
   $('feedback-text').addEventListener('input', () => reviewDrafts.set(selectedReview, $('feedback-text').value));

@@ -64,6 +64,7 @@ export function createApp({ config, auth, classroom, attachments }) {
       let decoded; try { decoded = decodeURIComponent(path); } catch { throw missing(); }
       if (decoded.includes('\\') || decoded.includes('\0') || decoded.split('/').some(part => part.startsWith('.')) || decoded.startsWith('/var/') || decoded.startsWith('/backups/')) throw missing();
       if (/^\/lessons(?:\/(?:index\.html)?)?$/.test(decoded)) { const session = auth.getSession(sessionToken(req)); if (!session || session.user.mustChangePassword) { res.writeHead(303, { Location: '/lessons/login.html', 'Cache-Control': 'no-store' }); return res.end(); } }
+      if (decoded === '/lessons') { res.writeHead(303, { Location: '/lessons/', 'Cache-Control': 'no-store' }); return res.end(); }
       let file = resolve(config.publicDir, '.' + decoded); if (!inside(file, config.publicDir)) throw missing();
       let info; try { info = await stat(file); if (info.isDirectory()) { file = resolve(file, 'index.html'); info = await stat(file); } file = await realpath(file); } catch { throw missing(); }
       if (!inside(file, config.publicDir) || !info.isFile() || !types[extname(file)]) throw missing();

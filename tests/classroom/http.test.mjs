@@ -8,4 +8,14 @@ test('download_bytes_equal_upload_and_foreign_attachment_404', async t => { cons
 test('private_paths_not_static', async t => { const f = await httpFixture(t); for (const path of ['/var/classroom/classroom.sqlite', '/.env', '/%2e%2e%2fpackage.json']) assert.equal((await f.anonymous.request(path)).status, 404); assert.equal((await f.anonymous.request('/')).status, 200); });
 test('large_json_and_errors_are_explicit', async t => { const f = await httpFixture(t); const r = await f.teacher.request('/api/students', { method: 'POST', input: { name: 'x'.repeat(1_048_577) } }); assert.equal(r.status, 413); const bad = await f.teacher.request('/api/lessons', { method: 'POST', input: { studentId: 'missing' } }); assert.equal(bad.status, 404); const data = await bad.json(); assert.deepEqual(Object.keys(data.error).sort(), ['code', 'message']); });
 test('cabinet_without_trailing_slash_requires_login', async t => { const f = await httpFixture(t); const r = await fetch(f.origin + '/lessons', { redirect: 'manual' }); assert.equal(r.status, 303); });
+test('authenticated_cabinet_without_slash_redirects_to_working_assets', async t => {
+  const f = await httpFixture(t); const session = await f.auth.login({ username: 'student', password: f.password, ip: 'test' });
+  const response = await fetch(f.origin + '/lessons', { redirect: 'manual', headers: { Cookie: 'classroom_session=' + session.token } });
+  assert.equal(response.status, 303); assert.equal(response.headers.get('location'), '/lessons/');
+  const canonical = new URL(response.headers.get('location'), f.origin);
+  const page = await f.student.request(canonical.pathname); const html = await page.text();
+  const script = /<script[^>]+src="([^\"]*lessons\.js[^\"]*)"/.exec(html)?.[1];
+  assert.ok(script); const scriptUrl = new URL(script, canonical);
+  assert.equal(scriptUrl.pathname, '/lessons/lessons.js'); assert.equal((await f.student.request(scriptUrl.pathname)).status, 200);
+});
 test('temporary_password_forbids_classroom_requests', async t => { const f = await httpFixture(t); const created = await (await f.teacher.request('/api/students', { method: 'POST', input: { username: 'new_student', name: 'Новый', level: 'A1', remainingLessons: 4 } })).json(); const client = f.anonymous; await client.login('new_student', created.temporaryPassword); assert.equal((await client.request('/api/classroom')).status, 403); assert.equal((await client.request('/api/attachments', { method: 'POST', body: Buffer.from('no'), headers: { 'X-File-Name': 'test.txt' } })).status, 403); });

@@ -75,7 +75,7 @@ npm run classroom:backup -- backup --output backups/classroom/2026-10-08
 npm run classroom:backup -- restore --source backups/classroom/2026-10-08 --output backups/classroom/restored-2026-10-08
 ```
 
-После проверки файлов и связей база восстанавливается, прежние сессии отзываются. Остановите текущий сервер и запустите восстановленные данные:
+Во время восстановления не изменяйте файлы резервной копии. После проверки файлов и связей база восстанавливается, прежние сессии отзываются. Остановите текущий сервер и запустите восстановленные данные:
 
 ```sh
 CLASSROOM_DATA_DIR=backups/classroom/restored-2026-10-08 npm run classroom
