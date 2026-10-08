@@ -28,3 +28,28 @@ export async function serviceFixture(t) {
   const lesson = service.createLesson(teacher, { studentId: student.id, title: 'Разговор о поездке', startAt: '2026-10-20T14:00:00Z', durationMinutes: 60 });
   return { store, auth, service, teacher, student, otherStudent, lesson, dataDir, password };
 }
+
+export async function httpFixture(t) {
+  const { createApp } = await implementation('../../server/classroom/http.mjs');
+  const { createAttachments } = await implementation('../../server/classroom/attachments.mjs');
+  const { loadConfig } = await import('../../server/classroom/config.mjs');
+  const f = await serviceFixture(t); const config = loadConfig({ CLASSROOM_PORT: '0', CLASSROOM_DATA_DIR: f.dataDir });
+  const attachments = createAttachments(f.store, config);
+  const server = createApp({ config, store: f.store, auth: f.auth, classroom: f.service, attachments });
+  await new Promise((resolve, reject) => { server.once('error', reject); server.listen(0, '127.0.0.1', resolve); });
+  config.origin = `http://127.0.0.1:${server.address().port}`;
+  let stopped = false;
+  const stop = async () => { if (!stopped) { stopped = true; server.closeAllConnections(); await new Promise(resolve => server.close(resolve)); } };
+  t.after(stop);
+  const client = () => {
+    let cookie = ''; let csrf = '';
+    return { async request(path, { method = 'GET', input, headers = {}, body } = {}) {
+      const response = await fetch(config.origin + path, { method, headers: { ...(cookie ? { Cookie: cookie } : {}), ...(method !== 'GET' ? { Origin: config.origin, 'X-CSRF-Token': csrf } : {}), ...(input ? { 'Content-Type': 'application/json' } : {}), ...headers }, body: input ? JSON.stringify(input) : body });
+      const setCookie = response.headers.get('set-cookie'); if (setCookie) cookie = setCookie.split(';')[0];
+      return response;
+    }, async login(username, password = f.password) { const response = await this.request('/api/auth/login', { method: 'POST', input: { username, password } }); const data = await response.json(); assert.equal(response.status, 200, JSON.stringify(data)); csrf = data.csrfToken; return response; } };
+  };
+  const teacher = client(); const student = client(); const otherStudent = client();
+  await teacher.login('teacher'); await student.login('student'); await otherStudent.login('other_student');
+  return { ...f, config, server, attachments, origin: config.origin, teacherActor: f.teacher, studentActor: f.student, otherStudentActor: f.otherStudent, teacher, student, otherStudent, anonymous: client(), stop };
+}
